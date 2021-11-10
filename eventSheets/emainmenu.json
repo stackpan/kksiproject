@@ -75,7 +75,7 @@
 							"objectClass": "Touch",
 							"sid": 290934806549261,
 							"parameters": {
-								"object": "playbutton"
+								"object": "btn_play"
 							}
 						}
 					],
@@ -110,7 +110,7 @@
 							"objectClass": "Touch",
 							"sid": 472151110291322,
 							"parameters": {
-								"object": "buutonInfo"
+								"object": "btn_info"
 							}
 						}
 					],
@@ -146,7 +146,7 @@
 							"objectClass": "Touch",
 							"sid": 264796702366609,
 							"parameters": {
-								"object": "buttonSettings"
+								"object": "btn_settings"
 							}
 						}
 					],
@@ -184,7 +184,7 @@
 					"objectClass": "Touch",
 					"sid": 977512940428190,
 					"parameters": {
-						"object": "btnExit"
+						"object": "btn_exit"
 					}
 				}
 			],
@@ -245,7 +245,7 @@
 							"objectClass": "Touch",
 							"sid": 165284038542949,
 							"parameters": {
-								"object": "buutonInfo"
+								"object": "btn_info"
 							}
 						}
 					],
@@ -270,7 +270,7 @@
 						},
 						{
 							"id": "set-animation",
-							"objectClass": "abaoutinfo",
+							"objectClass": "btn_tab_aboutinfo",
 							"sid": 258779078449985,
 							"parameters": {
 								"animation": "\"Animation 2\"",
@@ -299,7 +299,7 @@
 							"objectClass": "Touch",
 							"sid": 875530916131412,
 							"parameters": {
-								"object": "btncloseinfo"
+								"object": "btn_closeinfo"
 							}
 						}
 					],
@@ -344,14 +344,14 @@
 							"objectClass": "Touch",
 							"sid": 243010594629813,
 							"parameters": {
-								"object": "abaoutinfo"
+								"object": "btn_tab_aboutinfo"
 							}
 						}
 					],
 					"actions": [
 						{
 							"id": "set-animation",
-							"objectClass": "abaoutinfo",
+							"objectClass": "btn_tab_aboutinfo",
 							"sid": 182069954135243,
 							"parameters": {
 								"animation": "\"Animation 2\"",
@@ -360,7 +360,7 @@
 						},
 						{
 							"id": "set-animation",
-							"objectClass": "creditinfo",
+							"objectClass": "btn_tab_creditinfo",
 							"sid": 296754506726057,
 							"parameters": {
 								"animation": "\"Animation 1\"",
@@ -369,7 +369,7 @@
 						},
 						{
 							"id": "set-animation",
-							"objectClass": "pengembanginfo",
+							"objectClass": "btn_tab_devinfo",
 							"sid": 127996447104534,
 							"parameters": {
 								"animation": "\"Animation 1\"",
@@ -378,7 +378,7 @@
 						},
 						{
 							"id": "set-animation",
-							"objectClass": "bginfo",
+							"objectClass": "frame_info_content",
 							"sid": 510690382264580,
 							"parameters": {
 								"animation": "\"deskripsigame\"",
@@ -407,14 +407,14 @@
 							"objectClass": "Touch",
 							"sid": 258259727350117,
 							"parameters": {
-								"object": "creditinfo"
+								"object": "btn_tab_creditinfo"
 							}
 						}
 					],
 					"actions": [
 						{
 							"id": "set-animation",
-							"objectClass": "creditinfo",
+							"objectClass": "btn_tab_creditinfo",
 							"sid": 764965543714107,
 							"parameters": {
 								"animation": "\"Animation 2\"",
@@ -423,7 +423,7 @@
 						},
 						{
 							"id": "set-animation",
-							"objectClass": "pengembanginfo",
+							"objectClass": "btn_tab_devinfo",
 							"sid": 571110601461690,
 							"parameters": {
 								"animation": "\"Animation 1\"",
@@ -432,7 +432,7 @@
 						},
 						{
 							"id": "set-animation",
-							"objectClass": "abaoutinfo",
+							"objectClass": "btn_tab_aboutinfo",
 							"sid": 248720967794855,
 							"parameters": {
 								"animation": "\"Animation 1\"",
@@ -441,7 +441,7 @@
 						},
 						{
 							"id": "set-animation",
-							"objectClass": "bginfo",
+							"objectClass": "frame_info_content",
 							"sid": 506524552198120,
 							"parameters": {
 								"animation": "\"credit\"",
@@ -470,14 +470,14 @@
 							"objectClass": "Touch",
 							"sid": 766108393799934,
 							"parameters": {
-								"object": "pengembanginfo"
+								"object": "btn_tab_devinfo"
 							}
 						}
 					],
 					"actions": [
 						{
 							"id": "set-animation",
-							"objectClass": "pengembanginfo",
+							"objectClass": "btn_tab_devinfo",
 							"sid": 252770826076987,
 							"parameters": {
 								"animation": "\"Animation 2\"",
@@ -486,7 +486,7 @@
 						},
 						{
 							"id": "set-animation",
-							"objectClass": "abaoutinfo",
+							"objectClass": "btn_tab_aboutinfo",
 							"sid": 923509426884904,
 							"parameters": {
 								"animation": "\"Animation 1\"",
@@ -495,7 +495,7 @@
 						},
 						{
 							"id": "set-animation",
-							"objectClass": "creditinfo",
+							"objectClass": "btn_tab_creditinfo",
 							"sid": 552124390204795,
 							"parameters": {
 								"animation": "\"Animation 1\"",
@@ -504,7 +504,7 @@
 						},
 						{
 							"id": "set-animation",
-							"objectClass": "bginfo",
+							"objectClass": "frame_info_content",
 							"sid": 387024530630626,
 							"parameters": {
 								"animation": "\"pengembang\"",
@@ -565,7 +565,7 @@
 							"objectClass": "Touch",
 							"sid": 131798066412536,
 							"parameters": {
-								"object": "buttonSettings"
+								"object": "btn_settings"
 							}
 						}
 					],
@@ -590,7 +590,7 @@
 						},
 						{
 							"id": "set-animation",
-							"objectClass": "onsound",
+							"objectClass": "btn_sound_on",
 							"sid": 727743335157799,
 							"parameters": {
 								"animation": "\"Animation 2\"",
@@ -619,7 +619,7 @@
 							"objectClass": "Touch",
 							"sid": 284133089327679,
 							"parameters": {
-								"object": "closeSetting"
+								"object": "btn_closesetting"
 							}
 						}
 					],
@@ -664,14 +664,14 @@
 							"objectClass": "Touch",
 							"sid": 136431647627663,
 							"parameters": {
-								"object": "onsound"
+								"object": "btn_sound_on"
 							}
 						}
 					],
 					"actions": [
 						{
 							"id": "set-animation",
-							"objectClass": "onsound",
+							"objectClass": "btn_sound_on",
 							"sid": 740716141686409,
 							"parameters": {
 								"animation": "\"Animation 2\"",
@@ -680,7 +680,7 @@
 						},
 						{
 							"id": "set-animation",
-							"objectClass": "offsound",
+							"objectClass": "btn_sound_off",
 							"sid": 485617636010370,
 							"parameters": {
 								"animation": "\"Animation 1\"",
@@ -738,14 +738,14 @@
 							"objectClass": "Touch",
 							"sid": 172729525655184,
 							"parameters": {
-								"object": "offsound"
+								"object": "btn_sound_off"
 							}
 						}
 					],
 					"actions": [
 						{
 							"id": "set-animation",
-							"objectClass": "offsound",
+							"objectClass": "btn_sound_off",
 							"sid": 991572464378686,
 							"parameters": {
 								"animation": "\"Animation 2\"",
@@ -754,7 +754,7 @@
 						},
 						{
 							"id": "set-animation",
-							"objectClass": "onsound",
+							"objectClass": "btn_sound_on",
 							"sid": 786207572413183,
 							"parameters": {
 								"animation": "\"Animation 1\"",

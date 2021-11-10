@@ -1,0 +1,57 @@
+{
+	"name": "hud_loadingbar",
+	"plugin-id": "Sprite",
+	"sid": 546342770412498,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 855,
+						"height": 64,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 752590,
+						"collisionPoly": {
+							"points": [
+								0.005474452554744526,
+								0.07317073170731707,
+								0.5,
+								0,
+								0.9927007299270073,
+								0.07317073170731707,
+								0.9981751824817519,
+								0.5,
+								0.9908759124087592,
+								0.8780487804878049,
+								0.5,
+								0.975609756097561,
+								0.005474452554744526,
+								0.9024390243902439,
+								0,
+								0.5
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 278458324389110,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

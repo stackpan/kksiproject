@@ -12,84 +12,104 @@
 			"sid": 576126776122165
 		},
 		{
-			"eventType": "block",
-			"conditions": [
+			"eventType": "group",
+			"disabled": false,
+			"title": "Loading",
+			"description": "",
+			"isActiveOnStart": true,
+			"children": [
 				{
-					"id": "compare-width",
-					"objectClass": "TiledBackground",
-					"sid": 439958925503268,
-					"parameters": {
-						"comparison": 5,
-						"width": "526"
-					}
-				}
-			],
-			"actions": [
-				{
-					"id": "wait",
-					"objectClass": "System",
-					"sid": 370992811434378,
-					"parameters": {
-						"seconds": "2.0"
-					}
+					"eventType": "variable",
+					"name": "endvalue",
+					"type": "number",
+					"initialValue": "824",
+					"comment": "",
+					"isStatic": false,
+					"isConstant": true,
+					"sid": 685487165985475
 				},
 				{
-					"id": "go-to-layout",
-					"objectClass": "System",
-					"sid": 902101947302823,
-					"parameters": {
-						"layout": "mainmenu"
-					}
-				}
-			],
-			"sid": 722203344477594
-		},
-		{
-			"eventType": "block",
-			"conditions": [
-				{
-					"id": "every-tick",
-					"objectClass": "System",
-					"sid": 780027436999448
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "every-tick",
+							"objectClass": "System",
+							"sid": 710392469423875
+						},
+						{
+							"id": "compare-width",
+							"objectClass": "hud_loadingfiller",
+							"sid": 265824334564331,
+							"parameters": {
+								"comparison": 2,
+								"width": "endvalue"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-width",
+							"objectClass": "hud_loadingfiller",
+							"sid": 889724526916763,
+							"parameters": {
+								"width": "Self.Width+5"
+							}
+						},
+						{
+							"id": "set-eventvar-value",
+							"objectClass": "System",
+							"sid": 754507505514238,
+							"parameters": {
+								"variable": "presentage",
+								"value": "round((hud_loadingfiller.Width/endvalue)*99)"
+							}
+						},
+						{
+							"id": "set-text",
+							"objectClass": "Text",
+							"sid": 989739738449209,
+							"parameters": {
+								"text": "presentage&\"%\""
+							}
+						}
+					],
+					"sid": 346467096770667
 				},
 				{
-					"id": "compare-width",
-					"objectClass": "TiledBackground",
-					"sid": 327145771232261,
-					"parameters": {
-						"comparison": 2,
-						"width": "526"
-					}
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "compare-width",
+							"objectClass": "hud_loadingfiller",
+							"sid": 418159229324630,
+							"parameters": {
+								"comparison": 5,
+								"width": "endvalue"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "wait",
+							"objectClass": "System",
+							"sid": 222528118379351,
+							"parameters": {
+								"seconds": "2.0"
+							}
+						},
+						{
+							"id": "go-to-layout",
+							"objectClass": "System",
+							"sid": 697369670455831,
+							"parameters": {
+								"layout": "mainmenu"
+							}
+						}
+					],
+					"sid": 655034489950771
 				}
 			],
-			"actions": [
-				{
-					"id": "set-width",
-					"objectClass": "TiledBackground",
-					"sid": 140649490708457,
-					"parameters": {
-						"width": "Self.Width+5"
-					}
-				},
-				{
-					"id": "set-eventvar-value",
-					"objectClass": "System",
-					"sid": 906808719288036,
-					"parameters": {
-						"variable": "presentage",
-						"value": "round((TiledBackground.Width/525)*99)"
-					}
-				},
-				{
-					"id": "set-text",
-					"objectClass": "Text",
-					"sid": 780439911710594,
-					"parameters": {
-						"text": "presentage&\"%\""
-					}
-				}
-			],
-			"sid": 998651511907565
+			"sid": 185732615812804
 		}
 	],
 	"sid": 434946660939198

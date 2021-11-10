@@ -2,11 +2,11 @@
 	"name": "loadingscreen",
 	"layers": [
 		{
-			"name": "Layer 0",
+			"name": "Main",
 			"overriden": 0,
 			"instances": [
 				{
-					"type": "bgloading3",
+					"type": "bg_loading",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Default",
@@ -18,10 +18,10 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 426.95995072120417,
-						"y": 240.55788607218273,
-						"width": 855.6668610940802,
-						"height": 481.2724779748558,
+						"x": 960,
+						"y": 540,
+						"width": 1919,
+						"height": 1080,
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [
@@ -35,7 +35,7 @@
 					}
 				},
 				{
-					"type": "titlegame",
+					"type": "img_gametitle",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
@@ -47,12 +47,12 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 404,
-						"y": 180,
-						"width": 597.9212111241924,
-						"height": 192.16800455659777,
-						"originX": 0.5,
-						"originY": 0.5,
+						"x": 927.5,
+						"y": 403,
+						"width": 1156.3999999999999,
+						"height": 358.4,
+						"originX": 0.4804432855280313,
+						"originY": 0.5410526315789473,
 						"color": [
 							1,
 							1,
@@ -64,7 +64,7 @@
 					}
 				},
 				{
-					"type": "bg_loader",
+					"type": "hud_loadingbar",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
@@ -76,10 +76,10 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 421,
-						"y": 346,
-						"width": 548,
-						"height": 41,
+						"x": 960,
+						"y": 775,
+						"width": 855,
+						"height": 64,
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [
@@ -93,7 +93,7 @@
 					}
 				},
 				{
-					"type": "TiledBackground",
+					"type": "hud_loadingfiller",
 					"properties": {
 						"initially-visible": true,
 						"origin": "top-left",
@@ -101,18 +101,18 @@
 						"wrap-vertical": "repeat",
 						"image-offset-x": 0,
 						"image-offset-y": 0,
-						"image-scale-x": 1,
-						"image-scale-y": 1,
+						"image-scale-x": 0.58,
+						"image-scale-y": 0.58,
 						"image-angle": 0
 					},
 					"uid": 59,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 158,
-						"y": 335,
-						"width": 0,
-						"height": 21.48126845808747,
+						"x": 548.3666673588731,
+						"y": 756.8479335624412,
+						"width": -0.07763516893010092,
+						"height": 38.4075569573414,
 						"originX": 0,
 						"originY": 0,
 						"color": [
@@ -131,7 +131,7 @@
 						"text": "100%",
 						"enable-bbcode": true,
 						"font": "Arial",
-						"size": 12,
+						"size": 16,
 						"line-height": 0,
 						"bold": true,
 						"italic": false,
@@ -141,7 +141,7 @@
 							0,
 							1
 						],
-						"horizontal-alignment": "left",
+						"horizontal-alignment": "center",
 						"vertical-alignment": "top",
 						"wrapping": "word",
 						"initially-visible": true,
@@ -151,9 +151,9 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 396,
-						"y": 336,
-						"width": 48,
+						"x": 925,
+						"y": 759,
+						"width": 69,
 						"height": 30,
 						"originX": 0,
 						"originY": 0,
@@ -199,8 +199,8 @@
 	"sid": 406815843100534,
 	"nonworld-instances": [],
 	"effectTypes": [],
-	"width": 1708,
-	"height": 960,
+	"width": 1920,
+	"height": 1080,
 	"unboundedScrolling": false,
 	"vpX": 0.5,
 	"vpY": 0.5,

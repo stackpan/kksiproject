@@ -72,22 +72,6 @@
 		},
 		{
 			"type": "behavior",
-			"id": "Pin",
-			"name": "Pin",
-			"author": "Scirra",
-			"version": "r268",
-			"bundled": false
-		},
-		{
-			"type": "behavior",
-			"id": "Sin",
-			"name": "Sine",
-			"author": "Scirra",
-			"version": "r268",
-			"bundled": false
-		},
-		{
-			"type": "behavior",
 			"id": "solid",
 			"name": "Solid",
 			"author": "Scirra",
@@ -120,8 +104,8 @@
 		},
 		{
 			"type": "behavior",
-			"id": "Tween",
-			"name": "Tween",
+			"id": "Sin",
+			"name": "Sine",
 			"author": "Scirra",
 			"version": "r268",
 			"bundled": false
@@ -130,6 +114,22 @@
 			"type": "behavior",
 			"id": "jumpthru",
 			"name": "Jump-thru",
+			"author": "Scirra",
+			"version": "r268",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "Pin",
+			"name": "Pin",
+			"author": "Scirra",
+			"version": "r268",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "Tween",
+			"name": "Tween",
 			"author": "Scirra",
 			"version": "r268",
 			"bundled": false
@@ -176,7 +176,7 @@
 			"icongameover",
 			"btnrestart1gameover",
 			"gbtngotolevelstage",
-			"black",
+			"bg_black",
 			"pengetahuan1",
 			"btnclosepengetahuan",
 			"tk",
@@ -207,19 +207,6 @@
 			"Sprite8",
 			"lvl3complete",
 			"materi2peredaran",
-			"frameinfo",
-			"bginfo",
-			"abaoutinfo",
-			"creditinfo",
-			"pengembanginfo",
-			"Bgsetting",
-			"closeSetting",
-			"btnmusik",
-			"btnbahasa",
-			"barsound",
-			"bahasaindonesia",
-			"onsound",
-			"offsound",
 			"materi1peredaran",
 			"materi3peredaran",
 			"materi1pernafasan",
@@ -229,13 +216,6 @@
 			"pernafasanclosemateri"
 		],
 		"subfolders": [
-			{
-				"items": [
-					"btncloseinfo"
-				],
-				"subfolders": [],
-				"name": "info"
-			},
 			{
 				"items": [
 					"bgperedaran",
@@ -281,31 +261,21 @@
 					"MENU3",
 					"MENU4",
 					"MENU5",
-					"playbutton",
-					"sinar",
 					"Text",
-					"TiledBackground",
 					"titleBloodStage",
-					"titlegame",
 					"btnbackmainmenu",
-					"btnExit",
 					"btnmateriperedaran",
 					"btnmateripernafasan",
 					"BTNSHOP",
 					"buttonback",
-					"buttonSettings",
-					"buutonInfo",
 					"ganjel",
 					"ganjel2",
 					"GESERKANAN",
 					"GESERKIRI",
 					"gesermenu",
 					"BackMainMenu",
-					"bg_loader",
 					"bgBloodStage",
-					"bgkksi3",
 					"bglevel1peredaran",
-					"bgloading3",
 					"bglvl2peredaran",
 					"BTNKOIN",
 					"btnpause",
@@ -330,6 +300,86 @@
 				],
 				"subfolders": [],
 				"name": "Level2PeredaranDarah"
+			},
+			{
+				"items": [],
+				"subfolders": [
+					{
+						"items": [
+							"img_gametitle",
+							"img_barsettings"
+						],
+						"subfolders": [
+							{
+								"items": [
+									"lbl_languange",
+									"lbl_music"
+								],
+								"subfolders": [],
+								"name": "Labels"
+							},
+							{
+								"items": [
+									"frame_info",
+									"frame_info_content",
+									"frame_settings"
+								],
+								"subfolders": [],
+								"name": "Frames"
+							},
+							{
+								"items": [
+									"bg_loading",
+									"bg_mainmenu"
+								],
+								"subfolders": [],
+								"name": "Backgrounds"
+							}
+						],
+						"name": "Images"
+					},
+					{
+						"items": [
+							"hud_loadingbar",
+							"hud_loadingfiller"
+						],
+						"subfolders": [],
+						"name": "HUDs"
+					},
+					{
+						"items": [
+							"btn_info",
+							"btn_play",
+							"btn_settings",
+							"btn_exit",
+							"btn_closesetting",
+							"btn_closeinfo",
+							"btn_language_toggler",
+							"btn_sound_off",
+							"btn_sound_on"
+						],
+						"subfolders": [
+							{
+								"items": [
+									"btn_tab_aboutinfo",
+									"btn_tab_creditinfo",
+									"btn_tab_devinfo"
+								],
+								"subfolders": [],
+								"name": "Tabs"
+							}
+						],
+						"name": "Buttons"
+					},
+					{
+						"items": [
+							"particle_beam"
+						],
+						"subfolders": [],
+						"name": "Particles"
+					}
+				],
+				"name": "UI"
 			}
 		]
 	},
@@ -595,7 +645,7 @@
 		"cordovaiOSScheme": "app",
 		"cordovaAndroidScheme": "https"
 	},
-	"viewportWidth": 854,
-	"viewportHeight": 480,
+	"viewportWidth": 1920,
+	"viewportHeight": 1080,
 	"firstLayout": "loadingscreen"
 }

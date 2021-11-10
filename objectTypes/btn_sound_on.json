@@ -1,0 +1,106 @@
+{
+	"name": "btn_sound_on",
+	"plugin-id": "Sprite",
+	"sid": 146757428349865,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "Pin",
+			"name": "Pin",
+			"sid": 369225664442637
+		}
+	],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 64,
+						"height": 64,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 4024205,
+						"collisionPoly": {
+							"points": [
+								0.1475,
+								0.1475,
+								0.5,
+								0.0025,
+								0.85,
+								0.1475,
+								0.995,
+								0.5,
+								0.85,
+								0.85,
+								0.5,
+								0.9975,
+								0.1475,
+								0.85,
+								0.0025,
+								0.5
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 784711443812528,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			},
+			{
+				"frames": [
+					{
+						"width": 64,
+						"height": 64,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 5541972,
+						"collisionPoly": {
+							"points": [
+								0.14786967418546365,
+								0.14786967418546365,
+								0.5,
+								0,
+								0.849624060150376,
+								0.14786967418546365,
+								0.9974937343358395,
+								0.5,
+								0.8521303258145363,
+								0.8521303258145363,
+								0.5,
+								0.9974937343358395,
+								0.14786967418546365,
+								0.849624060150376,
+								0,
+								0.5
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 703366791996497,
+				"name": "Animation 2",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}
