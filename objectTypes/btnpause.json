@@ -1,0 +1,57 @@
+{
+	"name": "btnpause",
+	"plugin-id": "Sprite",
+	"sid": 100775868426141,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 300,
+						"height": 300,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 5768582,
+						"collisionPoly": {
+							"points": [
+								0.14742857142857144,
+								0.14742857142857144,
+								0.5,
+								0.001142857142857143,
+								0.8514285714285714,
+								0.14742857142857144,
+								0.9977142857142857,
+								0.5,
+								0.8514285714285714,
+								0.8514285714285714,
+								0.5,
+								0.9977142857142857,
+								0.14742857142857144,
+								0.8514285714285714,
+								0.001142857142857143,
+								0.5
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 620971403157198,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

@@ -1,0 +1,57 @@
+{
+	"name": "GESERKIRI",
+	"plugin-id": "Sprite",
+	"sid": 231603893239661,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 706,
+						"height": 705,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 7023031,
+						"collisionPoly": {
+							"points": [
+								0.14730878186968838,
+								0.1475177304964539,
+								0.5,
+								0.0014184397163120568,
+								0.8512747875354107,
+								0.1475177304964539,
+								0.9971671388101983,
+								0.5,
+								0.8512747875354107,
+								0.851063829787234,
+								0.5,
+								0.9971631205673759,
+								0.14730878186968838,
+								0.851063829787234,
+								0.00141643059490085,
+								0.5
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 673000746326267,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

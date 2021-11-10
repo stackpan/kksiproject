@@ -1,0 +1,63 @@
+{
+	"name": "iconpertanyaan",
+	"plugin-id": "Sprite",
+	"sid": 232412080786151,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "Sin",
+			"name": "Sine",
+			"sid": 153878851268365
+		}
+	],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 379,
+						"height": 398,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 122121,
+						"collisionPoly": {
+							"points": [
+								0.10290237467018469,
+								0.09798994974874371,
+								0.5,
+								0.01507537688442211,
+								0.8944591029023746,
+								0.09798994974874371,
+								0.9973614775725593,
+								0.5,
+								0.9023746701846965,
+								0.907035175879397,
+								0.5,
+								0.9974874371859297,
+								0.09498680738786279,
+								0.907035175879397,
+								0,
+								0.5
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 758231210261575,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

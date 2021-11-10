@@ -1,0 +1,48 @@
+{
+	"name": "pijakangeser",
+	"plugin-id": "Sprite",
+	"sid": 524987426546056,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "Sin",
+			"name": "Sine",
+			"sid": 476304072896124
+		},
+		{
+			"behaviorId": "solid",
+			"name": "Solid",
+			"sid": 613531307548388
+		}
+	],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 250,
+						"height": 250,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 5758294,
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 141969969754065,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

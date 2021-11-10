@@ -1,0 +1,63 @@
+{
+	"name": "icongameover",
+	"plugin-id": "Sprite",
+	"sid": 866871066037936,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "Pin",
+			"name": "Pin",
+			"sid": 219945511095660
+		}
+	],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 1432,
+						"height": 1429,
+						"originX": 0.5160614525139665,
+						"originY": 0.58222533240028,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 6625800,
+						"collisionPoly": {
+							"points": [
+								0.14175977653631286,
+								0.3645906228131561,
+								0.5160614525139665,
+								0.09727081875437368,
+								0.8763966480446927,
+								0.37788663400979705,
+								0.9601955307262572,
+								0.58222533240028,
+								0.9064245810055865,
+								0.8159552134359692,
+								0.5160614525139665,
+								0.9986004198740378,
+								0.11941340782122897,
+								0.821553533939818,
+								0.05726256983240224,
+								0.58222533240028
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 191383254826265,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

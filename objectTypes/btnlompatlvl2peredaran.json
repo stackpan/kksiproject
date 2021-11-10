@@ -1,0 +1,57 @@
+{
+	"name": "btnlompatlvl2peredaran",
+	"plugin-id": "Sprite",
+	"sid": 588800888165762,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 72,
+						"height": 71,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 9294969,
+						"collisionPoly": {
+							"points": [
+								0.15607365607365606,
+								0.15637873865425195,
+								0.5,
+								0.0136986301369863,
+								0.8427383427383427,
+								0.15637873865425195,
+								0.9841104841104841,
+								0.5,
+								0.8427383427383427,
+								0.8424322604414375,
+								0.5,
+								0.9851123689587031,
+								0.15607365607365606,
+								0.8424322604414375,
+								0.014701514701514701,
+								0.5
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 649158231063962,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

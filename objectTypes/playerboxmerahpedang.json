@@ -1,0 +1,55 @@
+{
+	"name": "Playerboxmerahpedang",
+	"plugin-id": "Sprite",
+	"sid": 654835722821135,
+	"isGlobal": false,
+	"instanceVariables": [
+		{
+			"name": "lifemerahpedang",
+			"type": "number",
+			"desc": "",
+			"sid": 555173407486991
+		}
+	],
+	"behaviorTypes": [
+		{
+			"behaviorId": "Platform",
+			"name": "Platform",
+			"sid": 203932111781817
+		},
+		{
+			"behaviorId": "scrollto",
+			"name": "ScrollTo",
+			"sid": 946431539183640
+		}
+	],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 250,
+						"height": 250,
+						"originX": 0.5,
+						"originY": 1,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 9650132,
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 994464073644227,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

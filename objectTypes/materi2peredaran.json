@@ -1,0 +1,57 @@
+{
+	"name": "materi2peredaran",
+	"plugin-id": "Sprite",
+	"sid": 264361740388507,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 7746,
+						"height": 3967,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 9742287,
+						"collisionPoly": {
+							"points": [
+								0.00012909888974954814,
+								0.0001589825119236884,
+								0.5,
+								0,
+								0.9997418022205009,
+								0.0001589825119236884,
+								0.9997418022205009,
+								0.5,
+								0.9997418022205009,
+								0.9996820349761526,
+								0.5,
+								0.9998410174880763,
+								0.00012909888974954814,
+								0.9996820349761526,
+								0.00012909888974954814,
+								0.5
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 136662130290524,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

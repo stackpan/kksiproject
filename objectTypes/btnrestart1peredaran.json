@@ -1,0 +1,68 @@
+{
+	"name": "btnrestart1peredaran",
+	"plugin-id": "Sprite",
+	"sid": 348014174245152,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "Pin",
+			"name": "Pin",
+			"sid": 342868103597580
+		},
+		{
+			"behaviorId": "Sin",
+			"name": "Sine",
+			"sid": 906681027917527
+		}
+	],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 70,
+						"height": 68,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 7205117,
+						"collisionPoly": {
+							"points": [
+								0.14446227929373998,
+								0.14705882352941177,
+								0.5,
+								0,
+								0.8523274478330658,
+								0.14869281045751634,
+								0.9967897271268058,
+								0.5,
+								0.8523274478330658,
+								0.8496732026143791,
+								0.5,
+								0.9967320261437909,
+								0.14606741573033707,
+								0.8496732026143791,
+								0,
+								0.5
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 491354545779179,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

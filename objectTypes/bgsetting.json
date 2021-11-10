@@ -1,0 +1,57 @@
+{
+	"name": "Bgsetting",
+	"plugin-id": "Sprite",
+	"sid": 614045808827594,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 6694,
+						"height": 5398,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 2405795,
+						"collisionPoly": {
+							"points": [
+								0.05422766656707499,
+								0.0672471285661356,
+								0.5,
+								0.0003705075954057058,
+								0.9456229459217209,
+								0.0672471285661356,
+								0.9997012249775918,
+								0.5,
+								0.9710188228264117,
+								0.9640607632456465,
+								0.5,
+								0.9996294924045943,
+								0.028831789662384224,
+								0.9640607632456465,
+								0.00014938751120406333,
+								0.5
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 223987887895795,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

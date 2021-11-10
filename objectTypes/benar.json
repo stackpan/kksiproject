@@ -1,0 +1,57 @@
+{
+	"name": "benar",
+	"plugin-id": "Sprite",
+	"sid": 223005488605725,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 4624,
+						"height": 2676,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 4600242,
+						"collisionPoly": {
+							"points": [
+								0.02184256055363322,
+								0.03774289985052317,
+								0.5,
+								0.0003736920777279522,
+								0.9779411764705882,
+								0.03774289985052317,
+								0.9995674740484429,
+								0.5,
+								0.9779411764705882,
+								0.9618834080717489,
+								0.5,
+								0.9992526158445441,
+								0.02184256055363322,
+								0.9618834080717489,
+								0.00021626297577854672,
+								0.5
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 707653908511755,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

@@ -1,0 +1,57 @@
+{
+	"name": "bgperedaran",
+	"plugin-id": "Sprite",
+	"sid": 939866628269530,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 5334,
+						"height": 3283,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 6994356,
+						"collisionPoly": {
+							"points": [
+								0.00018744142455482662,
+								0.0003045994517209869,
+								0.5,
+								0.0003045994517209869,
+								0.9996251171508903,
+								0.0003045994517209869,
+								0.9998125585754452,
+								0.5,
+								0.9998125585754452,
+								0.999695400548279,
+								0.5,
+								0.999695400548279,
+								0.00018744142455482662,
+								0.999390801096558,
+								0.00018744142455482662,
+								0.5
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 435884441219206,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

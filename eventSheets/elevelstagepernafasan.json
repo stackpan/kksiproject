@@ -1,0 +1,497 @@
+{
+	"name": "ELevelStagepernafasan",
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-start-of-layout",
+					"objectClass": "System",
+					"sid": 918432548143951
+				}
+			],
+			"actions": [],
+			"sid": 198559806657166
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "is-touching-object",
+					"objectClass": "Touch",
+					"sid": 299568431610397,
+					"parameters": {
+						"object": "buttonback"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 484883511866904,
+					"parameters": {
+						"layout": "bloodstage"
+					}
+				},
+				{
+					"id": "play",
+					"objectClass": "Audio",
+					"sid": 444373703603395,
+					"parameters": {
+						"audio-file": "klikbutton",
+						"loop": "not-looping",
+						"volume": "0",
+						"tag-optional": "\"\""
+					}
+				}
+			],
+			"sid": 159497040861026
+		},
+		{
+			"eventType": "group",
+			"disabled": false,
+			"title": "peredaran2",
+			"description": "",
+			"isActiveOnStart": true,
+			"children": [
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "is-touching-object",
+							"objectClass": "Touch",
+							"sid": 336213125438662,
+							"parameters": {
+								"object": "lvl1peredaran"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "go-to-layout",
+							"objectClass": "System",
+							"sid": 536306339160618,
+							"parameters": {
+								"layout": "lvl1peredaran"
+							}
+						},
+						{
+							"id": "play",
+							"objectClass": "Audio",
+							"sid": 994356977286731,
+							"parameters": {
+								"audio-file": "klikbutton",
+								"loop": "not-looping",
+								"volume": "0",
+								"tag-optional": "\"\""
+							}
+						}
+					],
+					"sid": 438971371148014
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "is-touching-object",
+							"objectClass": "Touch",
+							"sid": 682490897932570,
+							"parameters": {
+								"object": "lvl2peredaran"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "go-to-layout",
+							"objectClass": "System",
+							"sid": 385826768221594,
+							"parameters": {
+								"layout": "lvl2peredaran"
+							}
+						},
+						{
+							"id": "play",
+							"objectClass": "Audio",
+							"sid": 168444546155650,
+							"parameters": {
+								"audio-file": "klikbutton",
+								"loop": "not-looping",
+								"volume": "0",
+								"tag-optional": "\"\""
+							}
+						}
+					],
+					"sid": 906366260676202
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "is-touching-object",
+							"objectClass": "Touch",
+							"sid": 665565439004914,
+							"parameters": {
+								"object": "lvl3peredaran"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "go-to-layout",
+							"objectClass": "System",
+							"sid": 839759045061936,
+							"parameters": {
+								"layout": "lvl3peredaran"
+							}
+						},
+						{
+							"id": "play",
+							"objectClass": "Audio",
+							"sid": 904410725194697,
+							"parameters": {
+								"audio-file": "klikbutton",
+								"loop": "not-looping",
+								"volume": "0",
+								"tag-optional": "\"\""
+							}
+						}
+					],
+					"sid": 498444475695504
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-tap-object",
+							"objectClass": "Touch",
+							"sid": 615883787677853,
+							"parameters": {
+								"object": "lvl1bonusperedaran"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "go-to-layout",
+							"objectClass": "System",
+							"sid": 209437848076511,
+							"parameters": {
+								"layout": "Materi1peredaran"
+							}
+						},
+						{
+							"id": "play",
+							"objectClass": "Audio",
+							"sid": 999336633960504,
+							"parameters": {
+								"audio-file": "klikbutton",
+								"loop": "not-looping",
+								"volume": "0",
+								"tag-optional": "\"\""
+							}
+						}
+					],
+					"sid": 422416329503683
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-tap-object",
+							"objectClass": "Touch",
+							"sid": 185119666484015,
+							"parameters": {
+								"object": "lvl2bonusperedaran"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "go-to-layout",
+							"objectClass": "System",
+							"sid": 578114587989270,
+							"parameters": {
+								"layout": "materi2peredaran"
+							}
+						},
+						{
+							"id": "play",
+							"objectClass": "Audio",
+							"sid": 281328461453630,
+							"parameters": {
+								"audio-file": "klikbutton",
+								"loop": "not-looping",
+								"volume": "0",
+								"tag-optional": "\"\""
+							}
+						}
+					],
+					"sid": 821979054391932
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-tap-object",
+							"objectClass": "Touch",
+							"sid": 325514104399152,
+							"parameters": {
+								"object": "lvl3bonusperedaran"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "go-to-layout",
+							"objectClass": "System",
+							"sid": 370560849120630,
+							"parameters": {
+								"layout": "materi3peredaran"
+							}
+						},
+						{
+							"id": "play",
+							"objectClass": "Audio",
+							"sid": 112324585699726,
+							"parameters": {
+								"audio-file": "klikbutton",
+								"loop": "not-looping",
+								"volume": "0",
+								"tag-optional": "\"\""
+							}
+						}
+					],
+					"sid": 419992218532056
+				}
+			],
+			"sid": 786846008150609
+		},
+		{
+			"eventType": "group",
+			"disabled": false,
+			"title": "pernafasan2",
+			"description": "",
+			"isActiveOnStart": true,
+			"children": [
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "is-touching-object",
+							"objectClass": "Touch",
+							"sid": 596933156196652,
+							"parameters": {
+								"object": "lvl1pernafasan"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "go-to-layout",
+							"objectClass": "System",
+							"sid": 630790096431559,
+							"parameters": {
+								"layout": "lvl1pernafasan"
+							}
+						}
+					],
+					"sid": 924328439719489
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "is-touching-object",
+							"objectClass": "Touch",
+							"sid": 933746055178473,
+							"parameters": {
+								"object": "lvl2pernafasan"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "go-to-layout",
+							"objectClass": "System",
+							"sid": 736995520264511,
+							"parameters": {
+								"layout": "lvl2pernafasan"
+							}
+						}
+					],
+					"sid": 274052457932496
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "is-touching-object",
+							"objectClass": "Touch",
+							"sid": 760505477288799,
+							"parameters": {
+								"object": "lvl3pernafasan"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "go-to-layout",
+							"objectClass": "System",
+							"sid": 166738703776738,
+							"parameters": {
+								"layout": "lvl3pernafasan"
+							}
+						}
+					],
+					"sid": 644954521586306
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-tap-object",
+							"objectClass": "Touch",
+							"sid": 863587615549516,
+							"parameters": {
+								"object": "lvl1bonuspernafasan"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "go-to-layout",
+							"objectClass": "System",
+							"sid": 463928106930453,
+							"parameters": {
+								"layout": "materi1pernafasan"
+							}
+						}
+					],
+					"sid": 870508017753597
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-tap-object",
+							"objectClass": "Touch",
+							"sid": 604151520239810,
+							"parameters": {
+								"object": "lvl2bonuspernafasan"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "go-to-layout",
+							"objectClass": "System",
+							"sid": 347891678141382,
+							"parameters": {
+								"layout": "materi2pernafasan"
+							}
+						}
+					],
+					"sid": 236551516215346
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-tap-object",
+							"objectClass": "Touch",
+							"sid": 920803169078846,
+							"parameters": {
+								"object": "lvl3bonuspernafasan"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "go-to-layout",
+							"objectClass": "System",
+							"sid": 711091591245884,
+							"parameters": {
+								"layout": "materi3Pernafasan"
+							}
+						}
+					],
+					"sid": 903755716804875
+				}
+			],
+			"sid": 351278980187598
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-tap-object",
+					"objectClass": "Touch",
+					"sid": 203652119718627,
+					"parameters": {
+						"object": "peredaranbtnclosemateri"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 703155645271478,
+					"parameters": {
+						"layout": "peredaran"
+					}
+				},
+				{
+					"id": "play",
+					"objectClass": "Audio",
+					"sid": 922217024068293,
+					"parameters": {
+						"audio-file": "klikbutton",
+						"loop": "not-looping",
+						"volume": "0",
+						"tag-optional": "\"\""
+					}
+				}
+			],
+			"sid": 395786757839374
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-tap-object",
+					"objectClass": "Touch",
+					"sid": 808843892503050,
+					"parameters": {
+						"object": "pernafasanclosemateri"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 592117643108584,
+					"parameters": {
+						"layout": "pernafasan"
+					}
+				},
+				{
+					"id": "play",
+					"objectClass": "Audio",
+					"sid": 126138255143043,
+					"parameters": {
+						"audio-file": "klikbutton",
+						"loop": "not-looping",
+						"volume": "0",
+						"tag-optional": "\"\""
+					}
+				}
+			],
+			"sid": 788863637180920
+		}
+	],
+	"sid": 702710548048031
+}

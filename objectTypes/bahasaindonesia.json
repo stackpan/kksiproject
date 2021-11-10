@@ -1,0 +1,57 @@
+{
+	"name": "bahasaindonesia",
+	"plugin-id": "Sprite",
+	"sid": 189633692768213,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 1416,
+						"height": 418,
+						"originX": 0.4989406779661017,
+						"originY": 0.4964114832535885,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 9969739,
+						"collisionPoly": {
+							"points": [
+								0.01977401129943503,
+								0.07655502392344497,
+								0.4989406779661017,
+								0.0023923444976076554,
+								0.9781073446327684,
+								0.07416267942583732,
+								0.9978813559322034,
+								0.4964114832535885,
+								0.9788135593220338,
+								0.9186602870813397,
+								0.4989406779661017,
+								0.9952153110047847,
+								0.019067796610169493,
+								0.916267942583732,
+								0.0007062146892655367,
+								0.4964114832535885
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 671577784370619,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

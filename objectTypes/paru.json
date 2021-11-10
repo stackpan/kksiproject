@@ -1,0 +1,63 @@
+{
+	"name": "paru",
+	"plugin-id": "Sprite",
+	"sid": 227166669103425,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "Sin",
+			"name": "Sine",
+			"sid": 196998466727995
+		}
+	],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 1903,
+						"height": 1567,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 5875432,
+						"collisionPoly": {
+							"points": [
+								0.232790331056227,
+								0.28270580727504785,
+								0.5,
+								0.0012763241863433313,
+								0.767209668943773,
+								0.2820676451818762,
+								0.8964792433000526,
+								0.5,
+								0.9821334734629532,
+								0.9783024888321634,
+								0.5,
+								0.3446075303126994,
+								0.017341040462427744,
+								0.9783024888321634,
+								0.1045717288491855,
+								0.5
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 387157111877672,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

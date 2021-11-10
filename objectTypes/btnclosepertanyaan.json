@@ -1,0 +1,68 @@
+{
+	"name": "BTNCLOSEPERTANYAAN",
+	"plugin-id": "Sprite",
+	"sid": 623940784601133,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "Pin",
+			"name": "Pin",
+			"sid": 413018106405651
+		},
+		{
+			"behaviorId": "Sin",
+			"name": "Sine",
+			"sid": 433355382601872
+		}
+	],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 1098,
+						"height": 1098,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 5519309,
+						"collisionPoly": {
+							"points": [
+								0.14663023679417123,
+								0.14663023679417123,
+								0.5,
+								0.0009107468123861566,
+								0.8524590163934426,
+								0.14663023679417123,
+								0.9990892531876139,
+								0.5,
+								0.8524590163934426,
+								0.8524590163934426,
+								0.5,
+								0.9990892531876139,
+								0.14663023679417123,
+								0.8524590163934426,
+								0.0009107468123861566,
+								0.5
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 636175684310738,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

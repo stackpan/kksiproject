@@ -1,0 +1,57 @@
+{
+	"name": "btnVIRUS",
+	"plugin-id": "Sprite",
+	"sid": 783115925985144,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 1434,
+						"height": 657,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 3977858,
+						"collisionPoly": {
+							"points": [
+								0.06694560669456066,
+								0.1461187214611872,
+								0.5,
+								0.1506849315068493,
+								0.9128312412831241,
+								0.1887366818873668,
+								0.999302649930265,
+								0.5,
+								0.9281729428172942,
+								0.8432267884322678,
+								0.5,
+								0.9010654490106544,
+								0.06834030683403068,
+								0.8493150684931506,
+								0,
+								0.5
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 713104641788408,
+				"name": "Default",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

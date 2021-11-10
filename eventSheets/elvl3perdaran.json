@@ -1,0 +1,1406 @@
+{
+	"name": "Elvl3perdaran",
+	"events": [
+		{
+			"eventType": "variable",
+			"name": "scoreKOIN3",
+			"type": "number",
+			"initialValue": "0",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 189547699427216
+		},
+		{
+			"eventType": "variable",
+			"name": "scorekill3",
+			"type": "number",
+			"initialValue": "0",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 531142568794533
+		},
+		{
+			"eventType": "variable",
+			"name": "pauselvl3",
+			"type": "boolean",
+			"initialValue": "false",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 917156528555500
+		},
+		{
+			"eventType": "group",
+			"disabled": false,
+			"title": "playermovement_(PutihPedang)",
+			"description": "",
+			"isActiveOnStart": true,
+			"children": [
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "every-tick",
+							"objectClass": "System",
+							"sid": 610092544103196
+						}
+					],
+					"actions": [
+						{
+							"id": "set-position-to-another-object",
+							"objectClass": "putihpedang",
+							"sid": 690722323744911,
+							"parameters": {
+								"object": "playerboxputihpedang",
+								"image-point-optional": "0"
+							}
+						},
+						{
+							"id": "set-text",
+							"objectClass": "scorekoin",
+							"sid": 326968000842746,
+							"parameters": {
+								"text": "\" \"&scoreKOIN3"
+							}
+						},
+						{
+							"id": "set-text",
+							"objectClass": "scorekill",
+							"sid": 207965341358311,
+							"parameters": {
+								"text": "\" \"&scorekill3"
+							}
+						},
+						{
+							"id": "set-text",
+							"objectClass": "txtPlayerLife",
+							"sid": 578417332735521,
+							"parameters": {
+								"text": "playerboxputihpedang.lifeputihpedang"
+							}
+						}
+					],
+					"sid": 948585867000976
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "compare-boolean-eventvar",
+							"objectClass": "System",
+							"sid": 656082099704435,
+							"parameters": {
+								"variable": "pauselvl3"
+							},
+							"isInverted": true
+						}
+					],
+					"actions": [],
+					"sid": 307805520792429,
+					"children": [
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "is-moving",
+									"objectClass": "playerboxputihpedang",
+									"sid": 250455847724953,
+									"behaviorType": "Platform"
+								}
+							],
+							"actions": [
+								{
+									"id": "set-animation",
+									"objectClass": "putihpedang",
+									"sid": 701404316756395,
+									"parameters": {
+										"animation": "\"runputihpedang\"",
+										"from": "beginning"
+									}
+								}
+							],
+							"sid": 472045441903089
+						},
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "is-moving",
+									"objectClass": "playerboxputihpedang",
+									"sid": 152495146478730,
+									"behaviorType": "Platform",
+									"isInverted": true
+								}
+							],
+							"actions": [
+								{
+									"id": "set-animation",
+									"objectClass": "putihpedang",
+									"sid": 577362967893681,
+									"parameters": {
+										"animation": "\"idleputihpedang\"",
+										"from": "beginning"
+									}
+								}
+							],
+							"sid": 396919957732647
+						},
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "key-is-down",
+									"objectClass": "Keyboard",
+									"sid": 733508497815710,
+									"parameters": {
+										"key": 39
+									}
+								},
+								{
+									"id": "is-touching-object",
+									"objectClass": "Touch",
+									"sid": 897236621659153,
+									"parameters": {
+										"object": "maju"
+									}
+								}
+							],
+							"actions": [
+								{
+									"id": "simulate-control",
+									"objectClass": "playerboxputihpedang",
+									"sid": 652893041752869,
+									"behaviorType": "Platform",
+									"parameters": {
+										"control": "right"
+									}
+								}
+							],
+							"sid": 264203649338148,
+							"isOrBlock": true
+						},
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "key-is-down",
+									"objectClass": "Keyboard",
+									"sid": 725894332813869,
+									"parameters": {
+										"key": 37
+									}
+								},
+								{
+									"id": "is-touching-object",
+									"objectClass": "Touch",
+									"sid": 360076501784890,
+									"parameters": {
+										"object": "mundur"
+									}
+								}
+							],
+							"actions": [
+								{
+									"id": "simulate-control",
+									"objectClass": "playerboxputihpedang",
+									"sid": 707310782963093,
+									"behaviorType": "Platform",
+									"parameters": {
+										"control": "left"
+									}
+								}
+							],
+							"sid": 220326757109030,
+							"isOrBlock": true
+						},
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "on-touched-object",
+									"objectClass": "Touch",
+									"sid": 825007633524943,
+									"parameters": {
+										"object": "lompat"
+									}
+								},
+								{
+									"id": "key-is-down",
+									"objectClass": "Keyboard",
+									"sid": 414586154092646,
+									"parameters": {
+										"key": 38
+									}
+								}
+							],
+							"actions": [
+								{
+									"id": "simulate-control",
+									"objectClass": "playerboxputihpedang",
+									"sid": 484713286694409,
+									"behaviorType": "Platform",
+									"parameters": {
+										"control": "jump"
+									}
+								}
+							],
+							"sid": 130461152697661,
+							"isOrBlock": true
+						},
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "on-touched-object",
+									"objectClass": "Touch",
+									"sid": 545781555246840,
+									"parameters": {
+										"object": "mundur"
+									}
+								}
+							],
+							"actions": [
+								{
+									"id": "set-mirrored",
+									"objectClass": "putihpedang",
+									"sid": 431778253955165,
+									"parameters": {
+										"state": "mirrored"
+									}
+								}
+							],
+							"sid": 839093874720188
+						},
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "on-touched-object",
+									"objectClass": "Touch",
+									"sid": 140412461083371,
+									"parameters": {
+										"object": "maju"
+									}
+								}
+							],
+							"actions": [
+								{
+									"id": "set-mirrored",
+									"objectClass": "putihpedang",
+									"sid": 806208280280853,
+									"parameters": {
+										"state": "not-mirrored"
+									}
+								}
+							],
+							"sid": 735865957496658
+						},
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "is-touching-object",
+									"objectClass": "Touch",
+									"sid": 998950437794598,
+									"parameters": {
+										"object": "killbutton"
+									}
+								}
+							],
+							"actions": [
+								{
+									"id": "set-animation",
+									"objectClass": "putihpedang",
+									"sid": 156668066618888,
+									"parameters": {
+										"animation": "\"killputih\"",
+										"from": "beginning"
+									}
+								}
+							],
+							"sid": 315800530761791
+						},
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "on-key-pressed",
+									"objectClass": "Keyboard",
+									"sid": 465403052406807,
+									"parameters": {
+										"key": 37
+									}
+								}
+							],
+							"actions": [
+								{
+									"id": "set-mirrored",
+									"objectClass": "putihpedang",
+									"sid": 419606607923372,
+									"parameters": {
+										"state": "mirrored"
+									}
+								}
+							],
+							"sid": 100235805704028
+						},
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "on-key-pressed",
+									"objectClass": "Keyboard",
+									"sid": 626557284142225,
+									"parameters": {
+										"key": 39
+									}
+								}
+							],
+							"actions": [
+								{
+									"id": "set-mirrored",
+									"objectClass": "putihpedang",
+									"sid": 869305182268563,
+									"parameters": {
+										"state": "not-mirrored"
+									}
+								}
+							],
+							"sid": 946054659909826
+						},
+						{
+							"eventType": "block",
+							"conditions": [],
+							"actions": [],
+							"sid": 926236214031590
+						}
+					]
+				}
+			],
+			"sid": 853055083289011
+		},
+		{
+			"eventType": "group",
+			"disabled": false,
+			"title": "koinlvl3",
+			"description": "",
+			"isActiveOnStart": true,
+			"children": [
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-collision-with-another-object",
+							"objectClass": "playerboxputihpedang",
+							"sid": 524961906349030,
+							"parameters": {
+								"object": "koin"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "destroy",
+							"objectClass": "koin",
+							"sid": 412461011306530
+						},
+						{
+							"id": "add-to-eventvar",
+							"objectClass": "System",
+							"sid": 406219221038515,
+							"parameters": {
+								"variable": "scoreKOIN3",
+								"value": "1"
+							}
+						}
+					],
+					"sid": 182132926201387
+				}
+			],
+			"sid": 445636943793675
+		},
+		{
+			"eventType": "group",
+			"disabled": false,
+			"title": "monsterlvl3",
+			"description": "",
+			"isActiveOnStart": true,
+			"children": [
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-collision-with-another-object",
+							"objectClass": "playerboxputihpedang",
+							"sid": 667485180532171,
+							"parameters": {
+								"object": "enemypoxy"
+							}
+						}
+					],
+					"actions": [],
+					"sid": 963859544131474,
+					"children": [
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "is-falling",
+									"objectClass": "playerboxputihpedang",
+									"sid": 688466544357717,
+									"behaviorType": "Platform"
+								}
+							],
+							"actions": [
+								{
+									"id": "destroy",
+									"objectClass": "enemypoxy",
+									"sid": 264585621512832
+								},
+								{
+									"id": "add-to-eventvar",
+									"objectClass": "System",
+									"sid": 991311409479686,
+									"parameters": {
+										"variable": "scorekill3",
+										"value": "1"
+									}
+								}
+							],
+							"sid": 516946248077949
+						},
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "else",
+									"objectClass": "System",
+									"sid": 609114604768315
+								}
+							],
+							"actions": [
+								{
+									"id": "subtract-from-instvar",
+									"objectClass": "playerboxputihpedang",
+									"sid": 542938887787701,
+									"parameters": {
+										"instance-variable": "lifeputihpedang",
+										"value": "1"
+									}
+								},
+								{
+									"id": "flash",
+									"objectClass": "putihpedang",
+									"sid": 671789499869869,
+									"behaviorType": "Flash",
+									"parameters": {
+										"on-time": "0.1",
+										"off-time": "0.1",
+										"duration": "1.0"
+									}
+								}
+							],
+							"sid": 139903800082778
+						}
+					]
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-collision-with-another-object",
+							"objectClass": "playerboxputihpedang",
+							"sid": 141799885124375,
+							"parameters": {
+								"object": "enemysnifle"
+							}
+						}
+					],
+					"actions": [],
+					"sid": 872051718571662,
+					"children": [
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "is-falling",
+									"objectClass": "playerboxputihpedang",
+									"sid": 725778494923718,
+									"behaviorType": "Platform"
+								}
+							],
+							"actions": [
+								{
+									"id": "destroy",
+									"objectClass": "enemysnifle",
+									"sid": 274560183089131
+								},
+								{
+									"id": "add-to-eventvar",
+									"objectClass": "System",
+									"sid": 871277865605326,
+									"parameters": {
+										"variable": "scorekill3",
+										"value": "1"
+									}
+								}
+							],
+							"sid": 838855961138333
+						},
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "else",
+									"objectClass": "System",
+									"sid": 628976584313300
+								}
+							],
+							"actions": [
+								{
+									"id": "subtract-from-instvar",
+									"objectClass": "playerboxputihpedang",
+									"sid": 690536678795775,
+									"parameters": {
+										"instance-variable": "lifeputihpedang",
+										"value": "1"
+									}
+								},
+								{
+									"id": "flash",
+									"objectClass": "putihpedang",
+									"sid": 366087459311004,
+									"behaviorType": "Flash",
+									"parameters": {
+										"on-time": "0.1",
+										"off-time": "0.1",
+										"duration": "1.0"
+									}
+								}
+							],
+							"sid": 462182449300872
+						}
+					]
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-collision-with-another-object",
+							"objectClass": "playerboxputihpedang",
+							"sid": 266634438411430,
+							"parameters": {
+								"object": "enemycaster"
+							}
+						}
+					],
+					"actions": [],
+					"sid": 641099959781221,
+					"children": [
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "is-falling",
+									"objectClass": "playerboxputihpedang",
+									"sid": 336389227014073,
+									"behaviorType": "Platform"
+								}
+							],
+							"actions": [
+								{
+									"id": "destroy",
+									"objectClass": "enemycaster",
+									"sid": 872190573125508
+								},
+								{
+									"id": "add-to-eventvar",
+									"objectClass": "System",
+									"sid": 490752392125837,
+									"parameters": {
+										"variable": "scoreKOIN3",
+										"value": "1"
+									}
+								}
+							],
+							"sid": 601825793021537
+						},
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "else",
+									"objectClass": "System",
+									"sid": 199428112185277
+								}
+							],
+							"actions": [
+								{
+									"id": "subtract-from-instvar",
+									"objectClass": "playerboxputihpedang",
+									"sid": 303844129902828,
+									"parameters": {
+										"instance-variable": "lifeputihpedang",
+										"value": "1"
+									}
+								},
+								{
+									"id": "flash",
+									"objectClass": "putihpedang",
+									"sid": 765305936223059,
+									"behaviorType": "Flash",
+									"parameters": {
+										"on-time": "0.1",
+										"off-time": "0.1",
+										"duration": "1.0"
+									}
+								}
+							],
+							"sid": 243937800250743
+						}
+					]
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "is-touching-object",
+							"objectClass": "Touch",
+							"sid": 285162790973630,
+							"parameters": {
+								"object": "killbutton"
+							}
+						}
+					],
+					"actions": [],
+					"sid": 970651855682528
+				}
+			],
+			"sid": 847942127648994
+		},
+		{
+			"eventType": "group",
+			"disabled": false,
+			"title": "Popop Pause2",
+			"description": "",
+			"isActiveOnStart": true,
+			"children": [
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-start-of-layout",
+							"objectClass": "System",
+							"sid": 812800113280553
+						}
+					],
+					"actions": [
+						{
+							"id": "set-layer-visible",
+							"objectClass": "System",
+							"sid": 908969389757724,
+							"parameters": {
+								"layer": "\"pause\"",
+								"visibility": "invisible"
+							}
+						}
+					],
+					"sid": 474228432382512
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-tap-object",
+							"objectClass": "Touch",
+							"sid": 682853825964427,
+							"parameters": {
+								"object": "btnpause"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-layer-visible",
+							"objectClass": "System",
+							"sid": 850256567608799,
+							"parameters": {
+								"layer": "\"pause\"",
+								"visibility": "visible"
+							}
+						},
+						{
+							"id": "set-boolean-eventvar",
+							"objectClass": "System",
+							"sid": 640726368990815,
+							"parameters": {
+								"variable": "pauselvl3",
+								"value": "true"
+							}
+						}
+					],
+					"sid": 247771434388443
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-tap-object",
+							"objectClass": "Touch",
+							"sid": 601652182783208,
+							"parameters": {
+								"object": "resume"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-layer-visible",
+							"objectClass": "System",
+							"sid": 431616796902566,
+							"parameters": {
+								"layer": "\"pause\"",
+								"visibility": "invisible"
+							}
+						},
+						{
+							"id": "set-boolean-eventvar",
+							"objectClass": "System",
+							"sid": 340471857979716,
+							"parameters": {
+								"variable": "pauselvl3",
+								"value": "false"
+							}
+						}
+					],
+					"sid": 646441425487230
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-tap-object",
+							"objectClass": "Touch",
+							"sid": 726691177173927,
+							"parameters": {
+								"object": "restart"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "restart-layout",
+							"objectClass": "System",
+							"sid": 675671126581708
+						},
+						{
+							"id": "reset-global-variables",
+							"objectClass": "System",
+							"sid": 972064607281644
+						}
+					],
+					"sid": 336917807476607
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-tap-object",
+							"objectClass": "Touch",
+							"sid": 895911658737816,
+							"parameters": {
+								"object": "homeperedaran"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "go-to-layout",
+							"objectClass": "System",
+							"sid": 736233103998806,
+							"parameters": {
+								"layout": "mainmenu"
+							}
+						},
+						{
+							"id": "set-boolean-eventvar",
+							"objectClass": "System",
+							"sid": 502620125311056,
+							"parameters": {
+								"variable": "pauselvl3",
+								"value": "false"
+							}
+						}
+					],
+					"sid": 311707909903072
+				}
+			],
+			"sid": 145875814574422
+		},
+		{
+			"eventType": "group",
+			"disabled": false,
+			"title": "GameOverlvl3",
+			"description": "",
+			"isActiveOnStart": true,
+			"children": [
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-start-of-layout",
+							"objectClass": "System",
+							"sid": 312065920862117
+						}
+					],
+					"actions": [
+						{
+							"id": "set-layer-visible",
+							"objectClass": "System",
+							"sid": 446380507497966,
+							"parameters": {
+								"layer": "\"Gameoverlvl3\"",
+								"visibility": "invisible"
+							}
+						}
+					],
+					"sid": 646555374667117
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "compare-instance-variable",
+							"objectClass": "playerboxputihpedang",
+							"sid": 937733840938378,
+							"parameters": {
+								"instance-variable": "lifeputihpedang",
+								"comparison": 0,
+								"value": "0"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-layer-visible",
+							"objectClass": "System",
+							"sid": 815508316784412,
+							"parameters": {
+								"layer": "\"Gameoverlvl3\"",
+								"visibility": "visible"
+							}
+						},
+						{
+							"id": "set-boolean-eventvar",
+							"objectClass": "System",
+							"sid": 874151805278600,
+							"parameters": {
+								"variable": "pauselvl3",
+								"value": "true"
+							}
+						}
+					],
+					"sid": 332505120566160
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "is-outside-layout",
+							"objectClass": "playerboxputihpedang",
+							"sid": 676400943843616
+						}
+					],
+					"actions": [
+						{
+							"id": "set-layer-visible",
+							"objectClass": "System",
+							"sid": 396216273490019,
+							"parameters": {
+								"layer": "\"Gameoverlvl3\"",
+								"visibility": "visible"
+							}
+						},
+						{
+							"id": "set-boolean-eventvar",
+							"objectClass": "System",
+							"sid": 784377615209791,
+							"parameters": {
+								"variable": "pauselvl3",
+								"value": "true"
+							}
+						}
+					],
+					"sid": 329892231409302
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-collision-with-another-object",
+							"objectClass": "playerboxputihpedang",
+							"sid": 378125653643935,
+							"parameters": {
+								"object": "garismati"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-layer-visible",
+							"objectClass": "System",
+							"sid": 520525614795332,
+							"parameters": {
+								"layer": "\"Gameoverlvl3\"",
+								"visibility": "visible"
+							}
+						},
+						{
+							"id": "set-boolean-eventvar",
+							"objectClass": "System",
+							"sid": 262611002187699,
+							"parameters": {
+								"variable": "pauselvl3",
+								"value": "true"
+							}
+						}
+					],
+					"sid": 870083328442724
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "is-touching-object",
+							"objectClass": "Touch",
+							"sid": 807146455955458,
+							"parameters": {
+								"object": "gbtngotolevelstage"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "go-to-layout",
+							"objectClass": "System",
+							"sid": 682846353035862,
+							"parameters": {
+								"layout": "peredaran"
+							}
+						},
+						{
+							"id": "set-boolean-eventvar",
+							"objectClass": "System",
+							"sid": 686346166872109,
+							"parameters": {
+								"variable": "pauselvl3",
+								"value": "false"
+							}
+						}
+					],
+					"sid": 169097730746484
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "is-touching-object",
+							"objectClass": "Touch",
+							"sid": 769494029120616,
+							"parameters": {
+								"object": "btnrestart1gameover"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "restart-layout",
+							"objectClass": "System",
+							"sid": 813792031249622
+						},
+						{
+							"id": "reset-global-variables",
+							"objectClass": "System",
+							"sid": 382276505028415
+						}
+					],
+					"sid": 891119865434989
+				}
+			],
+			"sid": 845538165463130
+		},
+		{
+			"eventType": "group",
+			"disabled": false,
+			"title": "popupComplete3",
+			"description": "",
+			"isActiveOnStart": true,
+			"children": [
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-start-of-layout",
+							"objectClass": "System",
+							"sid": 766787889863052
+						}
+					],
+					"actions": [
+						{
+							"id": "set-layer-visible",
+							"objectClass": "System",
+							"sid": 755333752599523,
+							"parameters": {
+								"layer": "\"GamecompleteLvl3\"",
+								"visibility": "invisible"
+							}
+						}
+					],
+					"sid": 103633626554994
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-collision-with-another-object",
+							"objectClass": "playerboxputihpedang",
+							"sid": 849814367208217,
+							"parameters": {
+								"object": "btnnext"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-layer-visible",
+							"objectClass": "System",
+							"sid": 220428645417305,
+							"parameters": {
+								"layer": "\"GamecompleteLvl3\"",
+								"visibility": "visible"
+							}
+						},
+						{
+							"id": "set-boolean-eventvar",
+							"objectClass": "System",
+							"sid": 643563395645887,
+							"parameters": {
+								"variable": "pauselvl3",
+								"value": "true"
+							}
+						}
+					],
+					"sid": 536021668522084
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-tap-object",
+							"objectClass": "Touch",
+							"sid": 106780665105542,
+							"parameters": {
+								"object": "btnrestart1peredaran"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "restart-layout",
+							"objectClass": "System",
+							"sid": 665635878562071
+						},
+						{
+							"id": "reset-global-variables",
+							"objectClass": "System",
+							"sid": 767895331166084
+						},
+						{
+							"id": "set-boolean-eventvar",
+							"objectClass": "System",
+							"sid": 960050704883423,
+							"parameters": {
+								"variable": "pauselvl3",
+								"value": "false"
+							}
+						}
+					],
+					"sid": 983088136014143
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-tap-object",
+							"objectClass": "Touch",
+							"sid": 933252452147127,
+							"parameters": {
+								"object": "btnnextlevel1peredaran"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "go-to-layout",
+							"objectClass": "System",
+							"sid": 640761749151467,
+							"parameters": {
+								"layout": "lvl3peredaran"
+							}
+						},
+						{
+							"id": "set-boolean-eventvar",
+							"objectClass": "System",
+							"sid": 665936262024872,
+							"parameters": {
+								"variable": "pauselvl3",
+								"value": "false"
+							}
+						}
+					],
+					"sid": 924291410728313
+				}
+			],
+			"sid": 845021945662777
+		},
+		{
+			"eventType": "group",
+			"disabled": false,
+			"title": "Tahukah Kamu3A",
+			"description": "",
+			"isActiveOnStart": true,
+			"children": [
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-start-of-layout",
+							"objectClass": "System",
+							"sid": 924222312579795
+						}
+					],
+					"actions": [
+						{
+							"id": "set-layer-visible",
+							"objectClass": "System",
+							"sid": 180936517359269,
+							"parameters": {
+								"layer": "\"tahukahkamulvl3A\"",
+								"visibility": "invisible"
+							}
+						}
+					],
+					"sid": 199179051164601
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-collision-with-another-object",
+							"objectClass": "playerboxputihpedang",
+							"sid": 722110063628282,
+							"parameters": {
+								"object": "tk"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-layer-visible",
+							"objectClass": "System",
+							"sid": 185371856007592,
+							"parameters": {
+								"layer": "\"tahukahkamulvl3A\"",
+								"visibility": "visible"
+							}
+						},
+						{
+							"id": "set-boolean-eventvar",
+							"objectClass": "System",
+							"sid": 948263495125796,
+							"parameters": {
+								"variable": "pauselvl3",
+								"value": "true"
+							}
+						},
+						{
+							"id": "set-layer-visible",
+							"objectClass": "System",
+							"sid": 179789551957296,
+							"parameters": {
+								"layer": "\"GamecompleteLvl3A\"",
+								"visibility": "invisible"
+							}
+						},
+						{
+							"id": "set-layer-visible",
+							"objectClass": "System",
+							"sid": 117687413814850,
+							"parameters": {
+								"layer": "\"Gameoverlvl3\"",
+								"visibility": "invisible"
+							}
+						}
+					],
+					"sid": 725481405006352
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-tap-object",
+							"objectClass": "Touch",
+							"sid": 618362738729103,
+							"parameters": {
+								"object": "btnclosepengetahuan"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-layer-visible",
+							"objectClass": "System",
+							"sid": 979712200796379,
+							"parameters": {
+								"layer": "\"tahukahkamulvl3A\"",
+								"visibility": "invisible"
+							}
+						},
+						{
+							"id": "set-boolean-eventvar",
+							"objectClass": "System",
+							"sid": 940970259287078,
+							"parameters": {
+								"variable": "pauselvl3",
+								"value": "false"
+							}
+						}
+					],
+					"sid": 748245733632098
+				}
+			],
+			"sid": 282397620849137
+		},
+		{
+			"eventType": "group",
+			"disabled": false,
+			"title": "Tahukah Kamu3B",
+			"description": "",
+			"isActiveOnStart": true,
+			"children": [
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-start-of-layout",
+							"objectClass": "System",
+							"sid": 342300312394896
+						}
+					],
+					"actions": [
+						{
+							"id": "set-layer-visible",
+							"objectClass": "System",
+							"sid": 876074866162269,
+							"parameters": {
+								"layer": "\"tahukahkamulvl3B\"",
+								"visibility": "invisible"
+							}
+						}
+					],
+					"sid": 742708070726648
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-collision-with-another-object",
+							"objectClass": "playerboxputihpedang",
+							"sid": 570302444848903,
+							"parameters": {
+								"object": "tk2"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-layer-visible",
+							"objectClass": "System",
+							"sid": 381960554453703,
+							"parameters": {
+								"layer": "\"tahukahkamulvl3B\"",
+								"visibility": "visible"
+							}
+						},
+						{
+							"id": "set-boolean-eventvar",
+							"objectClass": "System",
+							"sid": 296438210399792,
+							"parameters": {
+								"variable": "pauselvl3",
+								"value": "true"
+							}
+						},
+						{
+							"id": "set-layer-visible",
+							"objectClass": "System",
+							"sid": 612497282854062,
+							"parameters": {
+								"layer": "\"GamecompleteLvl3B\"",
+								"visibility": "invisible"
+							}
+						},
+						{
+							"id": "set-layer-visible",
+							"objectClass": "System",
+							"sid": 504322063213729,
+							"parameters": {
+								"layer": "\"Gameoverlvl3\"",
+								"visibility": "invisible"
+							}
+						}
+					],
+					"sid": 780206055538678
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-tap-object",
+							"objectClass": "Touch",
+							"sid": 790812247498508,
+							"parameters": {
+								"object": "btnclosepengetahuan"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-layer-visible",
+							"objectClass": "System",
+							"sid": 966612812864593,
+							"parameters": {
+								"layer": "\"tahukahkamulvl3B\"",
+								"visibility": "invisible"
+							}
+						},
+						{
+							"id": "set-boolean-eventvar",
+							"objectClass": "System",
+							"sid": 908824063749913,
+							"parameters": {
+								"variable": "pauselvl3",
+								"value": "false"
+							}
+						}
+					],
+					"sid": 944337082780976
+				}
+			],
+			"sid": 900979733713857
+		}
+	],
+	"sid": 689176215461737
+}

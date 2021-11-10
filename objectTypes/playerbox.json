@@ -1,0 +1,50 @@
+{
+	"name": "playerbox",
+	"plugin-id": "Sprite",
+	"sid": 953605419306751,
+	"isGlobal": false,
+	"instanceVariables": [
+		{
+			"name": "life",
+			"type": "number",
+			"desc": "",
+			"sid": 743124987861161
+		}
+	],
+	"behaviorTypes": [
+		{
+			"behaviorId": "Platform",
+			"name": "Platform",
+			"sid": 982283403733093
+		}
+	],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 250,
+						"height": 250,
+						"originX": 0.5,
+						"originY": 1,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 6229353,
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 281024328121269,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

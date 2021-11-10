@@ -1,0 +1,59 @@
+{
+	"name": "titleBloodStage",
+	"plugin-id": "Sprite",
+	"sid": 703417503109629,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "Sin",
+			"name": "Sine",
+			"sid": 212516986607206
+		}
+	],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 5632,
+						"height": 1360,
+						"originX": 0.5011541193181818,
+						"originY": 0.5033088235294118,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 6848116,
+						"collisionPoly": {
+							"points": [
+								0.023259943181818177,
+								0.10147058823529413,
+								0.9499289772727273,
+								0.2213235294117647,
+								0.9818892045454546,
+								0.5033088235294118,
+								0.9396306818181818,
+								0.7419117647058824,
+								0.06232244318181819,
+								0.7426470588235294,
+								0.015625,
+								0.5033088235294118
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 859526157176475,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

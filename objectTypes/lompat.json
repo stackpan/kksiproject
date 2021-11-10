@@ -1,0 +1,57 @@
+{
+	"name": "lompat",
+	"plugin-id": "Sprite",
+	"sid": 943351800656277,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 819,
+						"height": 818,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 269805,
+						"collisionPoly": {
+							"points": [
+								0.14652014652014653,
+								0.1466992665036675,
+								0.5,
+								0,
+								0.8522588522588522,
+								0.1466992665036675,
+								0.9975579975579976,
+								0.5,
+								0.8522588522588522,
+								0.8520782396088019,
+								0.5,
+								0.9987775061124694,
+								0.14652014652014653,
+								0.8520782396088019,
+								0.001221001221001221,
+								0.5
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 342193888260717,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

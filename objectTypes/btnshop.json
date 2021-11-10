@@ -1,0 +1,57 @@
+{
+	"name": "BTNSHOP",
+	"plugin-id": "Sprite",
+	"sid": 583926617874812,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 1024,
+						"height": 435,
+						"originX": 0.5,
+						"originY": 0.5136217948717948,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 5859570,
+						"collisionPoly": {
+							"points": [
+								0.022510231923601638,
+								0.09455128205128205,
+								0.5,
+								0.003205128205128205,
+								0.9768076398362893,
+								0.09455128205128205,
+								0.9986357435197817,
+								0.5136217948717948,
+								0.9713506139154161,
+								0.9182692307692307,
+								0.5,
+								0.9967948717948718,
+								0.02796725784447476,
+								0.9182692307692307,
+								0.0006821282401091405,
+								0.5136217948717948
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 927902594381670,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

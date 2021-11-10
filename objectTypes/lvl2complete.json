@@ -1,0 +1,63 @@
+{
+	"name": "lvl2complete",
+	"plugin-id": "Sprite",
+	"sid": 712035386967859,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "Pin",
+			"name": "Pin",
+			"sid": 702642902286867
+		}
+	],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 1301,
+						"height": 347,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 3099558,
+						"collisionPoly": {
+							"points": [
+								0.03920061491160646,
+								0.14697406340057637,
+								0.5,
+								0,
+								0.9600307455803229,
+								0.14697406340057637,
+								0.9992313604919293,
+								0.5,
+								0.9600307455803229,
+								0.8501440922190202,
+								0.5,
+								0.9971181556195965,
+								0.03920061491160646,
+								0.8501440922190202,
+								0,
+								0.5
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 166683069738355,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

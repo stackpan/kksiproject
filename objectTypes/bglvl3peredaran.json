@@ -1,0 +1,57 @@
+{
+	"name": "bglvl3peredaran",
+	"plugin-id": "Sprite",
+	"sid": 772235120141409,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 11536,
+						"height": 1717,
+						"originX": 0.4996096799375488,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 8400321,
+						"collisionPoly": {
+							"points": [
+								0.0022551825830514354,
+								0.02036067481093659,
+								0.4996096799375488,
+								0.0005817335660267597,
+								0.9996530488333767,
+								0.0017452006980802793,
+								0.9997397866250325,
+								0.5,
+								0.9994795732500651,
+								0.9965095986038395,
+								0.4996096799375488,
+								0.9965095986038395,
+								0.0022551825830514354,
+								0.9790575916230366,
+								0.0022551825830514354,
+								0.5
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 273357688830218,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

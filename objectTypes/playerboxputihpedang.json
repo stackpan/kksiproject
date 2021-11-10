@@ -1,0 +1,55 @@
+{
+	"name": "playerboxputihpedang",
+	"plugin-id": "Sprite",
+	"sid": 915933322100585,
+	"isGlobal": false,
+	"instanceVariables": [
+		{
+			"name": "lifeputihpedang",
+			"type": "number",
+			"desc": "",
+			"sid": 524433191715699
+		}
+	],
+	"behaviorTypes": [
+		{
+			"behaviorId": "scrollto",
+			"name": "ScrollTo",
+			"sid": 749463463842291
+		},
+		{
+			"behaviorId": "Platform",
+			"name": "Platform",
+			"sid": 800521162250869
+		}
+	],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 250,
+						"height": 250,
+						"originX": 0.5,
+						"originY": 1,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 6880433,
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 514509012547797,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

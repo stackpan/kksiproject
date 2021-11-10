@@ -1,0 +1,57 @@
+{
+	"name": "bglvl2pernafasan",
+	"plugin-id": "Sprite",
+	"sid": 749972575929993,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 10865,
+						"height": 1275,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 4781578,
+						"collisionPoly": {
+							"points": [
+								0.002208927749654855,
+								0.018823529411764704,
+								0.5,
+								0.004705882352941176,
+								0.9981592268752876,
+								0.014901960784313726,
+								0.9981592268752876,
+								0.5,
+								0.988403129314312,
+								0.9011764705882352,
+								0.5,
+								0.9011764705882352,
+								0.01150483202945237,
+								0.9011764705882352,
+								0.002208927749654855,
+								0.5
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 963340276125010,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

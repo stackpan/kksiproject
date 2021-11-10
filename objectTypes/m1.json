@@ -1,0 +1,37 @@
+{
+	"name": "M1",
+	"plugin-id": "Sprite",
+	"sid": 893344697166513,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 65,
+						"height": 65,
+						"originX": 0.5076923076923077,
+						"originY": 0.49230769230769234,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 345440,
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 493896294428330,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

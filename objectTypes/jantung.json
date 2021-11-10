@@ -1,0 +1,63 @@
+{
+	"name": "jantung",
+	"plugin-id": "Sprite",
+	"sid": 604026255000195,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "Sin",
+			"name": "Sine",
+			"sid": 698404029019908
+		}
+	],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 1257,
+						"height": 1817,
+						"originX": 0.5178997613365155,
+						"originY": 0.47138139790864064,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 3362121,
+						"collisionPoly": {
+							"points": [
+								0.0954653937947494,
+								0.1788662630709962,
+								0.5178997613365155,
+								0.009356081452944413,
+								0.863961813842482,
+								0.23115024766097964,
+								0.8886237072394592,
+								0.47138139790864064,
+								0.9920445505171042,
+								0.7996697853604843,
+								0.5178997613365155,
+								0.9532195927352779,
+								0.10978520286396182,
+								0.7534397358282883,
+								0.015115354017501989,
+								0.47138139790864064
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 790827890387902,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

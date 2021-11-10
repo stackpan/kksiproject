@@ -1,0 +1,63 @@
+{
+	"name": "popupPause",
+	"plugin-id": "Sprite",
+	"sid": 898365592613041,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "Pin",
+			"name": "Pin",
+			"sid": 911008786857225
+		}
+	],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 2947,
+						"height": 4797,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 9747185,
+						"collisionPoly": {
+							"points": [
+								0.11470408785845028,
+								0.13399857448325017,
+								0.5,
+								0.0007127583749109052,
+								0.8849908480780964,
+								0.13399857448325017,
+								0.9993898718730934,
+								0.5,
+								0.9728492983526541,
+								0.9682822523164647,
+								0.5,
+								0.9992872416250891,
+								0.026845637583892617,
+								0.9682822523164647,
+								0.0003050640634533252,
+								0.5
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 408609893806605,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

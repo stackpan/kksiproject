@@ -1,0 +1,68 @@
+{
+	"name": "btnnext",
+	"plugin-id": "Sprite",
+	"sid": 398776461084710,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "Sin",
+			"name": "Sine",
+			"sid": 269902899635671
+		},
+		{
+			"behaviorId": "Pin",
+			"name": "Pin",
+			"sid": 898911283496440
+		}
+	],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 624,
+						"height": 653,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 348177,
+						"collisionPoly": {
+							"points": [
+								0.040154015401540157,
+								0.09707446808510638,
+								0.5,
+								0.007978723404255319,
+								0.9603960396039604,
+								0.09441489361702128,
+								0.982948294829483,
+								0.5,
+								0.9614961496149615,
+								0.9069148936170213,
+								0.5,
+								0.9960106382978723,
+								0.03905390539053905,
+								0.9042553191489362,
+								0.018151815181518153,
+								0.5
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 181455678950833,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

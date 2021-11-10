@@ -1,0 +1,57 @@
+{
+	"name": "materi3Pernafasan",
+	"plugin-id": "Sprite",
+	"sid": 531171327939539,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 7744,
+						"height": 3965,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 5651084,
+						"collisionPoly": {
+							"points": [
+								0,
+								0,
+								0.5,
+								0,
+								0.999870867768595,
+								0,
+								0.999870867768595,
+								0.5,
+								0.99974173553719,
+								0.9994955863808322,
+								0.5,
+								0.9997477931904162,
+								0,
+								0.9997477931904162,
+								0,
+								0.5
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 334385453792517,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

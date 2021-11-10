@@ -1,0 +1,63 @@
+{
+	"name": "enemycaster",
+	"plugin-id": "Sprite",
+	"sid": 630114401346138,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "Sin",
+			"name": "Sine",
+			"sid": 153639607644223
+		}
+	],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 200,
+						"height": 193,
+						"originX": 0.46954881895618356,
+						"originY": 0.6077276976495726,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 2723608,
+						"collisionPoly": {
+							"points": [
+								0,
+								0.2929340277777778,
+								0.46954881895618356,
+								0,
+								0.9885745685734687,
+								0.24977363782051276,
+								1,
+								0.6077276976495726,
+								1,
+								1,
+								0.46954881895618356,
+								1,
+								0,
+								1,
+								0,
+								0.6077276976495726
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 980265278017648,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

@@ -1,0 +1,433 @@
+{
+	"name": "bloodstageE",
+	"events": [
+		{
+			"eventType": "variable",
+			"name": "MOVE",
+			"type": "number",
+			"initialValue": "1",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 291470127891310
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "every-tick",
+					"objectClass": "System",
+					"sid": 240756307463852
+				}
+			],
+			"actions": [
+				{
+					"id": "set-position-to-another-object",
+					"objectClass": "MENU1",
+					"sid": 740844442836584,
+					"parameters": {
+						"object": "gesermenu",
+						"image-point-optional": "0"
+					}
+				},
+				{
+					"id": "set-position-to-another-object",
+					"objectClass": "MENU2",
+					"sid": 924909668580695,
+					"parameters": {
+						"object": "gesermenu",
+						"image-point-optional": "1"
+					}
+				},
+				{
+					"id": "set-position-to-another-object",
+					"objectClass": "MENU3",
+					"sid": 916711261616742,
+					"parameters": {
+						"object": "gesermenu",
+						"image-point-optional": "2"
+					}
+				},
+				{
+					"id": "set-position-to-another-object",
+					"objectClass": "MENU4",
+					"sid": 388268160694427,
+					"parameters": {
+						"object": "gesermenu",
+						"image-point-optional": "3"
+					}
+				},
+				{
+					"id": "set-position-to-another-object",
+					"objectClass": "MENU5",
+					"sid": 856643211471308,
+					"parameters": {
+						"object": "gesermenu",
+						"image-point-optional": "4"
+					}
+				}
+			],
+			"sid": 220162470989722
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-eventvar",
+					"objectClass": "System",
+					"sid": 156172145461761,
+					"parameters": {
+						"variable": "MOVE",
+						"comparison": 0,
+						"value": "3"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-x",
+					"objectClass": "gesermenu",
+					"sid": 155125628411605,
+					"parameters": {
+						"x": "lerp(gesermenu.X, M1.X, 0.01)"
+					}
+				}
+			],
+			"sid": 408168448182274
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-eventvar",
+					"objectClass": "System",
+					"sid": 453454059123732,
+					"parameters": {
+						"variable": "MOVE",
+						"comparison": 0,
+						"value": "2"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-x",
+					"objectClass": "gesermenu",
+					"sid": 661155039252659,
+					"parameters": {
+						"x": "lerp(gesermenu.X, M2.X, 0.01)"
+					}
+				}
+			],
+			"sid": 201585715851638
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-eventvar",
+					"objectClass": "System",
+					"sid": 712666022459187,
+					"parameters": {
+						"variable": "MOVE",
+						"comparison": 0,
+						"value": "1"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-x",
+					"objectClass": "gesermenu",
+					"sid": 579160131341235,
+					"parameters": {
+						"x": "lerp(gesermenu.X, M3.X, 0.01)"
+					}
+				}
+			],
+			"sid": 634199342784603
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-key-pressed",
+					"objectClass": "Keyboard",
+					"sid": 144516751258638,
+					"parameters": {
+						"key": 39
+					}
+				},
+				{
+					"id": "compare-eventvar",
+					"objectClass": "System",
+					"sid": 676968661320233,
+					"parameters": {
+						"variable": "MOVE",
+						"comparison": 2,
+						"value": "3"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "add-to-eventvar",
+					"objectClass": "System",
+					"sid": 382498685313135,
+					"parameters": {
+						"variable": "MOVE",
+						"value": "1"
+					}
+				}
+			],
+			"sid": 835954437672556
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-key-pressed",
+					"objectClass": "Keyboard",
+					"sid": 663554892540277,
+					"parameters": {
+						"key": 37
+					}
+				},
+				{
+					"id": "compare-eventvar",
+					"objectClass": "System",
+					"sid": 188267446874764,
+					"parameters": {
+						"variable": "MOVE",
+						"comparison": 4,
+						"value": "1"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "subtract-from-eventvar",
+					"objectClass": "System",
+					"sid": 639728663707490,
+					"parameters": {
+						"variable": "MOVE",
+						"value": "1"
+					}
+				}
+			],
+			"sid": 770270649688076
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "is-touching-object",
+					"objectClass": "Touch",
+					"sid": 580040224710624,
+					"parameters": {
+						"object": "GESERKANAN"
+					}
+				},
+				{
+					"id": "compare-eventvar",
+					"objectClass": "System",
+					"sid": 800972331275241,
+					"parameters": {
+						"variable": "MOVE",
+						"comparison": 2,
+						"value": "3"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "add-to-eventvar",
+					"objectClass": "System",
+					"sid": 762256156762958,
+					"parameters": {
+						"variable": "MOVE",
+						"value": "1"
+					}
+				},
+				{
+					"id": "play",
+					"objectClass": "Audio",
+					"sid": 541713021861229,
+					"parameters": {
+						"audio-file": "klikbutton",
+						"loop": "not-looping",
+						"volume": "0",
+						"tag-optional": "\"\""
+					}
+				}
+			],
+			"sid": 529363287256731
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "is-touching-object",
+					"objectClass": "Touch",
+					"sid": 203036478772105,
+					"parameters": {
+						"object": "GESERKIRI"
+					}
+				},
+				{
+					"id": "compare-eventvar",
+					"objectClass": "System",
+					"sid": 529679525429250,
+					"parameters": {
+						"variable": "MOVE",
+						"comparison": 4,
+						"value": "1"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "subtract-from-eventvar",
+					"objectClass": "System",
+					"sid": 895672212719502,
+					"parameters": {
+						"variable": "MOVE",
+						"value": "1"
+					}
+				},
+				{
+					"id": "play",
+					"objectClass": "Audio",
+					"sid": 933666764180351,
+					"parameters": {
+						"audio-file": "klikbutton",
+						"loop": "not-looping",
+						"volume": "0",
+						"tag-optional": "\"\""
+					}
+				}
+			],
+			"sid": 891231719938563
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "is-touching-object",
+					"objectClass": "Touch",
+					"sid": 923636447642937,
+					"parameters": {
+						"object": "MENU1"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 917556074393523,
+					"parameters": {
+						"layout": "peredaran"
+					}
+				},
+				{
+					"id": "play",
+					"objectClass": "Audio",
+					"sid": 342865465227742,
+					"parameters": {
+						"audio-file": "klikbutton",
+						"loop": "not-looping",
+						"volume": "0",
+						"tag-optional": "\"\""
+					}
+				}
+			],
+			"sid": 581450558399646
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "is-touching-object",
+					"objectClass": "Touch",
+					"sid": 513149210226431,
+					"parameters": {
+						"object": "MENU2"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 615837528883547,
+					"parameters": {
+						"layout": "pernafasan"
+					}
+				},
+				{
+					"id": "play",
+					"objectClass": "Audio",
+					"sid": 932817667215178,
+					"parameters": {
+						"audio-file": "klikbutton",
+						"loop": "not-looping",
+						"volume": "0",
+						"tag-optional": "\"\""
+					}
+				}
+			],
+			"sid": 602335286900760
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "MENU5",
+					"sid": 357317132493440,
+					"parameters": {
+						"object": "ganjel2"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-eventvar-value",
+					"objectClass": "System",
+					"sid": 850242743942424,
+					"parameters": {
+						"variable": "MOVE",
+						"value": "2"
+					}
+				}
+			],
+			"sid": 279508921149650
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "is-touching-object",
+					"objectClass": "Touch",
+					"sid": 938529613965988,
+					"parameters": {
+						"object": "BackMainMenu"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 632557662925779,
+					"parameters": {
+						"layout": "mainmenu"
+					}
+				}
+			],
+			"sid": 791855011067959
+		}
+	],
+	"sid": 586048272027729
+}

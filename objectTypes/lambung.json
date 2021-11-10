@@ -1,0 +1,63 @@
+{
+	"name": "lambung",
+	"plugin-id": "Sprite",
+	"sid": 986682776512458,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "Sin",
+			"name": "Sine",
+			"sid": 948820158291724
+		}
+	],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 720,
+						"height": 654,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 9477078,
+						"collisionPoly": {
+							"points": [
+								0.4674285714285714,
+								0.5138190954773869,
+								0.5,
+								0.0728643216080402,
+								0.9085714285714286,
+								0.09987437185929648,
+								0.9868571428571429,
+								0.5,
+								0.8131428571428572,
+								0.7945979899497487,
+								0.5,
+								0.9340452261306532,
+								0.02457142857142857,
+								0.9723618090452262,
+								0.4754285714285714,
+								0.5
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 708396248353265,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

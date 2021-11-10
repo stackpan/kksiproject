@@ -1,0 +1,68 @@
+{
+	"name": "homeperedaran",
+	"plugin-id": "Sprite",
+	"sid": 764571345071703,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "Pin",
+			"name": "Pin",
+			"sid": 940767502730868
+		},
+		{
+			"behaviorId": "Sin",
+			"name": "Sine",
+			"sid": 117028541035196
+		}
+	],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 1896,
+						"height": 734,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 4862080,
+						"collisionPoly": {
+							"points": [
+								0.034282700421940926,
+								0.0885558583106267,
+								0.5,
+								0.004087193460490463,
+								0.9657172995780591,
+								0.08719346049046321,
+								0.9883966244725738,
+								0.5,
+								0.9662447257383966,
+								0.9128065395095368,
+								0.5,
+								0.997275204359673,
+								0.03375527426160337,
+								0.9114441416893733,
+								0.012130801687763712,
+								0.5
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 344642591791929,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

@@ -1,0 +1,57 @@
+{
+	"name": "btnmateriperedaran",
+	"plugin-id": "Sprite",
+	"sid": 732125705784203,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 719,
+						"height": 307,
+						"originX": 0.5,
+						"originY": 0.5130293159609121,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 8809717,
+						"collisionPoly": {
+							"points": [
+								0.02364394993045897,
+								0.09771986970684039,
+								0.5,
+								0.003257328990228013,
+								0.9749652294853964,
+								0.09771986970684039,
+								0.9972183588317107,
+								0.5130293159609121,
+								0.9694019471488178,
+								0.9120521172638436,
+								0.5,
+								0.990228013029316,
+								0.02920723226703755,
+								0.9120521172638436,
+								0.0013908205841446429,
+								0.5130293159609121
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 270458117722104,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

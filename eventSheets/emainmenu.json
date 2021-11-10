@@ -1,0 +1,903 @@
+{
+	"name": "Emainmenu",
+	"events": [
+		{
+			"eventType": "variable",
+			"name": "disable",
+			"type": "boolean",
+			"initialValue": "false",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 390542593422061
+		},
+		{
+			"eventType": "variable",
+			"name": "sliderpersen",
+			"type": "number",
+			"initialValue": "0",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 573970396000903
+		},
+		{
+			"eventType": "variable",
+			"name": "kontentOffset",
+			"type": "number",
+			"initialValue": "0",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 176952881549125
+		},
+		{
+			"eventType": "variable",
+			"name": "scrollRatio",
+			"type": "number",
+			"initialValue": "0",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 211796935591141
+		},
+		{
+			"eventType": "variable",
+			"name": "musik",
+			"type": "number",
+			"initialValue": "1",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 597814153443195
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-boolean-eventvar",
+					"objectClass": "System",
+					"sid": 261911341051921,
+					"parameters": {
+						"variable": "disable"
+					},
+					"isInverted": true
+				}
+			],
+			"actions": [],
+			"sid": 747509459451437,
+			"children": [
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "is-touching-object",
+							"objectClass": "Touch",
+							"sid": 290934806549261,
+							"parameters": {
+								"object": "playbutton"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "go-to-layout",
+							"objectClass": "System",
+							"sid": 998642364162258,
+							"parameters": {
+								"layout": "bloodstage"
+							}
+						},
+						{
+							"id": "play",
+							"objectClass": "Audio",
+							"sid": 690826698661509,
+							"parameters": {
+								"audio-file": "klikbutton",
+								"loop": "not-looping",
+								"volume": "0",
+								"tag-optional": "\"\""
+							}
+						}
+					],
+					"sid": 804919885638081
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-touched-object",
+							"objectClass": "Touch",
+							"sid": 472151110291322,
+							"parameters": {
+								"object": "buutonInfo"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-layer-visible",
+							"objectClass": "System",
+							"sid": 867116746570760,
+							"parameters": {
+								"layer": "\"POPUP\"",
+								"visibility": "visible"
+							}
+						},
+						{
+							"id": "play",
+							"objectClass": "Audio",
+							"sid": 633327393523312,
+							"parameters": {
+								"audio-file": "klikbutton",
+								"loop": "not-looping",
+								"volume": "0",
+								"tag-optional": "\"\""
+							}
+						}
+					],
+					"sid": 198835369911629
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-touched-object",
+							"objectClass": "Touch",
+							"sid": 264796702366609,
+							"parameters": {
+								"object": "buttonSettings"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-layer-visible",
+							"objectClass": "System",
+							"sid": 968469300812021,
+							"parameters": {
+								"layer": "\"POPUPSetting\"",
+								"visibility": "visible"
+							}
+						},
+						{
+							"id": "play",
+							"objectClass": "Audio",
+							"sid": 341198360915996,
+							"parameters": {
+								"audio-file": "klikbutton",
+								"loop": "not-looping",
+								"volume": "0",
+								"tag-optional": "\"\""
+							}
+						}
+					],
+					"sid": 609296357985455
+				}
+			]
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "is-touching-object",
+					"objectClass": "Touch",
+					"sid": 977512940428190,
+					"parameters": {
+						"object": "btnExit"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "close",
+					"objectClass": "Browser",
+					"sid": 742889288367156
+				},
+				{
+					"id": "play",
+					"objectClass": "Audio",
+					"sid": 278388704951551,
+					"parameters": {
+						"audio-file": "klikbutton",
+						"loop": "not-looping",
+						"volume": "0",
+						"tag-optional": "\"\""
+					}
+				}
+			],
+			"sid": 254962215050692
+		},
+		{
+			"eventType": "group",
+			"disabled": false,
+			"title": "popupinfo",
+			"description": "",
+			"isActiveOnStart": true,
+			"children": [
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-start-of-layout",
+							"objectClass": "System",
+							"sid": 331232702516199
+						}
+					],
+					"actions": [
+						{
+							"id": "set-layer-visible",
+							"objectClass": "System",
+							"sid": 914958537758982,
+							"parameters": {
+								"layer": "\"POPUP\"",
+								"visibility": "invisible"
+							}
+						}
+					],
+					"sid": 188412733979771
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-touched-object",
+							"objectClass": "Touch",
+							"sid": 165284038542949,
+							"parameters": {
+								"object": "buutonInfo"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-layer-visible",
+							"objectClass": "System",
+							"sid": 756345235651200,
+							"parameters": {
+								"layer": "\"POPUP\"",
+								"visibility": "visible"
+							}
+						},
+						{
+							"id": "set-boolean-eventvar",
+							"objectClass": "System",
+							"sid": 469958365266589,
+							"parameters": {
+								"variable": "disable",
+								"value": "true"
+							}
+						},
+						{
+							"id": "set-animation",
+							"objectClass": "abaoutinfo",
+							"sid": 258779078449985,
+							"parameters": {
+								"animation": "\"Animation 2\"",
+								"from": "beginning"
+							}
+						},
+						{
+							"id": "play",
+							"objectClass": "Audio",
+							"sid": 882836870854057,
+							"parameters": {
+								"audio-file": "klikbutton",
+								"loop": "not-looping",
+								"volume": "0",
+								"tag-optional": "\"\""
+							}
+						}
+					],
+					"sid": 131770049479639
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "is-touching-object",
+							"objectClass": "Touch",
+							"sid": 875530916131412,
+							"parameters": {
+								"object": "btncloseinfo"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-layer-visible",
+							"objectClass": "System",
+							"sid": 120753814810740,
+							"parameters": {
+								"layer": "\"POPUP\"",
+								"visibility": "invisible"
+							}
+						},
+						{
+							"id": "set-boolean-eventvar",
+							"objectClass": "System",
+							"sid": 461619022437430,
+							"parameters": {
+								"variable": "disable",
+								"value": "false"
+							}
+						},
+						{
+							"id": "play",
+							"objectClass": "Audio",
+							"sid": 101793102676939,
+							"parameters": {
+								"audio-file": "klikbutton",
+								"loop": "not-looping",
+								"volume": "0",
+								"tag-optional": "\"\""
+							}
+						}
+					],
+					"sid": 347572086940764
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-tap-object",
+							"objectClass": "Touch",
+							"sid": 243010594629813,
+							"parameters": {
+								"object": "abaoutinfo"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-animation",
+							"objectClass": "abaoutinfo",
+							"sid": 182069954135243,
+							"parameters": {
+								"animation": "\"Animation 2\"",
+								"from": "beginning"
+							}
+						},
+						{
+							"id": "set-animation",
+							"objectClass": "creditinfo",
+							"sid": 296754506726057,
+							"parameters": {
+								"animation": "\"Animation 1\"",
+								"from": "beginning"
+							}
+						},
+						{
+							"id": "set-animation",
+							"objectClass": "pengembanginfo",
+							"sid": 127996447104534,
+							"parameters": {
+								"animation": "\"Animation 1\"",
+								"from": "beginning"
+							}
+						},
+						{
+							"id": "set-animation",
+							"objectClass": "bginfo",
+							"sid": 510690382264580,
+							"parameters": {
+								"animation": "\"deskripsigame\"",
+								"from": "beginning"
+							}
+						},
+						{
+							"id": "play",
+							"objectClass": "Audio",
+							"sid": 783972005220617,
+							"parameters": {
+								"audio-file": "klikbutton",
+								"loop": "not-looping",
+								"volume": "0",
+								"tag-optional": "\"\""
+							}
+						}
+					],
+					"sid": 757846872716379
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-tap-object",
+							"objectClass": "Touch",
+							"sid": 258259727350117,
+							"parameters": {
+								"object": "creditinfo"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-animation",
+							"objectClass": "creditinfo",
+							"sid": 764965543714107,
+							"parameters": {
+								"animation": "\"Animation 2\"",
+								"from": "beginning"
+							}
+						},
+						{
+							"id": "set-animation",
+							"objectClass": "pengembanginfo",
+							"sid": 571110601461690,
+							"parameters": {
+								"animation": "\"Animation 1\"",
+								"from": "beginning"
+							}
+						},
+						{
+							"id": "set-animation",
+							"objectClass": "abaoutinfo",
+							"sid": 248720967794855,
+							"parameters": {
+								"animation": "\"Animation 1\"",
+								"from": "beginning"
+							}
+						},
+						{
+							"id": "set-animation",
+							"objectClass": "bginfo",
+							"sid": 506524552198120,
+							"parameters": {
+								"animation": "\"credit\"",
+								"from": "beginning"
+							}
+						},
+						{
+							"id": "play",
+							"objectClass": "Audio",
+							"sid": 127816124529177,
+							"parameters": {
+								"audio-file": "klikbutton",
+								"loop": "not-looping",
+								"volume": "0",
+								"tag-optional": "\"\""
+							}
+						}
+					],
+					"sid": 864719194077508
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-tap-object",
+							"objectClass": "Touch",
+							"sid": 766108393799934,
+							"parameters": {
+								"object": "pengembanginfo"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-animation",
+							"objectClass": "pengembanginfo",
+							"sid": 252770826076987,
+							"parameters": {
+								"animation": "\"Animation 2\"",
+								"from": "beginning"
+							}
+						},
+						{
+							"id": "set-animation",
+							"objectClass": "abaoutinfo",
+							"sid": 923509426884904,
+							"parameters": {
+								"animation": "\"Animation 1\"",
+								"from": "beginning"
+							}
+						},
+						{
+							"id": "set-animation",
+							"objectClass": "creditinfo",
+							"sid": 552124390204795,
+							"parameters": {
+								"animation": "\"Animation 1\"",
+								"from": "beginning"
+							}
+						},
+						{
+							"id": "set-animation",
+							"objectClass": "bginfo",
+							"sid": 387024530630626,
+							"parameters": {
+								"animation": "\"pengembang\"",
+								"from": "beginning"
+							}
+						},
+						{
+							"id": "play",
+							"objectClass": "Audio",
+							"sid": 223850185872939,
+							"parameters": {
+								"audio-file": "klikbutton",
+								"loop": "not-looping",
+								"volume": "0",
+								"tag-optional": "\"\""
+							}
+						}
+					],
+					"sid": 793906051517050
+				}
+			],
+			"sid": 389451778933388
+		},
+		{
+			"eventType": "group",
+			"disabled": false,
+			"title": "popupSetting",
+			"description": "",
+			"isActiveOnStart": true,
+			"children": [
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-start-of-layout",
+							"objectClass": "System",
+							"sid": 656901953578276
+						}
+					],
+					"actions": [
+						{
+							"id": "set-layer-visible",
+							"objectClass": "System",
+							"sid": 301214071079138,
+							"parameters": {
+								"layer": "\"POPUPSetting\"",
+								"visibility": "invisible"
+							}
+						}
+					],
+					"sid": 335698308101818
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-touched-object",
+							"objectClass": "Touch",
+							"sid": 131798066412536,
+							"parameters": {
+								"object": "buttonSettings"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-layer-visible",
+							"objectClass": "System",
+							"sid": 708321089506237,
+							"parameters": {
+								"layer": "\"POPUPSetting\"",
+								"visibility": "visible"
+							}
+						},
+						{
+							"id": "set-boolean-eventvar",
+							"objectClass": "System",
+							"sid": 994597887659828,
+							"parameters": {
+								"variable": "disable",
+								"value": "true"
+							}
+						},
+						{
+							"id": "set-animation",
+							"objectClass": "onsound",
+							"sid": 727743335157799,
+							"parameters": {
+								"animation": "\"Animation 2\"",
+								"from": "beginning"
+							}
+						},
+						{
+							"id": "play",
+							"objectClass": "Audio",
+							"sid": 940710123716421,
+							"parameters": {
+								"audio-file": "klikbutton",
+								"loop": "not-looping",
+								"volume": "0",
+								"tag-optional": "\"\""
+							}
+						}
+					],
+					"sid": 287686120678954
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "is-touching-object",
+							"objectClass": "Touch",
+							"sid": 284133089327679,
+							"parameters": {
+								"object": "closeSetting"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-layer-visible",
+							"objectClass": "System",
+							"sid": 954199403321630,
+							"parameters": {
+								"layer": "\"POPUPSetting\"",
+								"visibility": "invisible"
+							}
+						},
+						{
+							"id": "set-boolean-eventvar",
+							"objectClass": "System",
+							"sid": 602421911092478,
+							"parameters": {
+								"variable": "disable",
+								"value": "false"
+							}
+						},
+						{
+							"id": "play",
+							"objectClass": "Audio",
+							"sid": 725275613153840,
+							"parameters": {
+								"audio-file": "klikbutton",
+								"loop": "not-looping",
+								"volume": "0",
+								"tag-optional": "\"\""
+							}
+						}
+					],
+					"sid": 818180515197930
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-tap-object",
+							"objectClass": "Touch",
+							"sid": 136431647627663,
+							"parameters": {
+								"object": "onsound"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-animation",
+							"objectClass": "onsound",
+							"sid": 740716141686409,
+							"parameters": {
+								"animation": "\"Animation 2\"",
+								"from": "beginning"
+							}
+						},
+						{
+							"id": "set-animation",
+							"objectClass": "offsound",
+							"sid": 485617636010370,
+							"parameters": {
+								"animation": "\"Animation 1\"",
+								"from": "beginning"
+							}
+						},
+						{
+							"id": "play",
+							"objectClass": "Audio",
+							"sid": 694039314305048,
+							"parameters": {
+								"audio-file": "klikbutton",
+								"loop": "not-looping",
+								"volume": "0",
+								"tag-optional": "\"\""
+							}
+						}
+					],
+					"sid": 244861866953888,
+					"children": [
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "compare-eventvar",
+									"objectClass": "System",
+									"sid": 963342495929052,
+									"parameters": {
+										"variable": "musik",
+										"comparison": 0,
+										"value": "0"
+									}
+								}
+							],
+							"actions": [
+								{
+									"id": "set-eventvar-value",
+									"objectClass": "System",
+									"sid": 243276503353649,
+									"parameters": {
+										"variable": "musik",
+										"value": "1"
+									}
+								}
+							],
+							"sid": 883520239405799
+						}
+					]
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-tap-object",
+							"objectClass": "Touch",
+							"sid": 172729525655184,
+							"parameters": {
+								"object": "offsound"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-animation",
+							"objectClass": "offsound",
+							"sid": 991572464378686,
+							"parameters": {
+								"animation": "\"Animation 2\"",
+								"from": "beginning"
+							}
+						},
+						{
+							"id": "set-animation",
+							"objectClass": "onsound",
+							"sid": 786207572413183,
+							"parameters": {
+								"animation": "\"Animation 1\"",
+								"from": "beginning"
+							}
+						},
+						{
+							"id": "play",
+							"objectClass": "Audio",
+							"sid": 875611998491622,
+							"parameters": {
+								"audio-file": "klikbutton",
+								"loop": "not-looping",
+								"volume": "0",
+								"tag-optional": "\"\""
+							}
+						}
+					],
+					"sid": 745464083662641,
+					"children": [
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "compare-eventvar",
+									"objectClass": "System",
+									"sid": 476002143789372,
+									"parameters": {
+										"variable": "musik",
+										"comparison": 0,
+										"value": "1"
+									}
+								}
+							],
+							"actions": [
+								{
+									"id": "set-eventvar-value",
+									"objectClass": "System",
+									"sid": 482751365822883,
+									"parameters": {
+										"variable": "musik",
+										"value": "0"
+									}
+								}
+							],
+							"sid": 873101567212041
+						}
+					]
+				}
+			],
+			"sid": 607189216168620
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-start-of-layout",
+					"objectClass": "System",
+					"sid": 330892207835578
+				}
+			],
+			"actions": [],
+			"sid": 651307575335654,
+			"children": [
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "is-tag-playing",
+							"objectClass": "Audio",
+							"sid": 377899612293820,
+							"parameters": {
+								"tag": "\"musik\""
+							},
+							"isInverted": true
+						}
+					],
+					"actions": [
+						{
+							"id": "play",
+							"objectClass": "Audio",
+							"sid": 968959554946580,
+							"parameters": {
+								"audio-file": "musicutamagame",
+								"loop": "looping",
+								"volume": "0",
+								"tag-optional": "\"musik\""
+							}
+						}
+					],
+					"sid": 518170489165786
+				}
+			]
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-eventvar",
+					"objectClass": "System",
+					"sid": 353638095503939,
+					"parameters": {
+						"variable": "musik",
+						"comparison": 0,
+						"value": "0"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-muted",
+					"objectClass": "Audio",
+					"sid": 301374194038573,
+					"parameters": {
+						"tag": "\"musik\"",
+						"state": "muted"
+					}
+				}
+			],
+			"sid": 808280995451543
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "else",
+					"objectClass": "System",
+					"sid": 512604939208114
+				}
+			],
+			"actions": [
+				{
+					"id": "set-muted",
+					"objectClass": "Audio",
+					"sid": 848255869770484,
+					"parameters": {
+						"tag": "\"musik\"",
+						"state": "unmuted"
+					}
+				}
+			],
+			"sid": 129689043476956
+		}
+	],
+	"sid": 458097224963905
+}

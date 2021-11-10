@@ -1,0 +1,57 @@
+{
+	"name": "bgpernafasan",
+	"plugin-id": "Sprite",
+	"sid": 960456958393856,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 5335,
+						"height": 3282,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 8034909,
+						"collisionPoly": {
+							"points": [
+								0.00018744142455482662,
+								0.0003046922608165753,
+								0.5,
+								0,
+								0.9998125585754452,
+								0,
+								0.9998125585754452,
+								0.5,
+								0.9998125585754452,
+								0.9996953077391835,
+								0.5,
+								0.9996953077391835,
+								0.00018744142455482662,
+								0.9993906154783668,
+								0.00018744142455482662,
+								0.5
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 755314775625911,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

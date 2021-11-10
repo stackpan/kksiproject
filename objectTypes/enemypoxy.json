@@ -1,0 +1,63 @@
+{
+	"name": "enemypoxy",
+	"plugin-id": "Sprite",
+	"sid": 242652494956481,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "Sin",
+			"name": "Sine",
+			"sid": 352150084363678
+		}
+	],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 527,
+						"height": 416,
+						"originX": 0.49146110056925996,
+						"originY": 0.5492788461538461,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 5583924,
+						"collisionPoly": {
+							"points": [
+								0.1861564071987565,
+								0.3144555532532118,
+								0.49146110056925996,
+								0.0022439550192865534,
+								0.8219840783634839,
+								0.28225965523287316,
+								0.9683902296011937,
+								0.5492788461538461,
+								0.9037100001070221,
+								0.9193839857821418,
+								0.49146110056925996,
+								0.9864341587235805,
+								0.09835941698284112,
+								0.894867843252893,
+								0.027841621649845296,
+								0.5492788461538461
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 642559422139763,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

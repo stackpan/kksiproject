@@ -1,0 +1,601 @@
+{
+	"projectFormatVersion": 1,
+	"savedWithRelease": 26800,
+	"name": "kksi",
+	"runtime": "c3",
+	"useWorker": "auto",
+	"bundleAddons": false,
+	"usedAddons": [
+		{
+			"type": "plugin",
+			"id": "Sprite",
+			"name": "Sprite",
+			"author": "Scirra",
+			"version": "r268",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "Text",
+			"name": "Text",
+			"author": "Scirra",
+			"version": "r268",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "TiledBg",
+			"name": "Tiled Background",
+			"author": "Scirra",
+			"version": "r268",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "Keyboard",
+			"name": "Keyboard",
+			"author": "Scirra",
+			"version": "r268",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "Touch",
+			"name": "Touch",
+			"author": "Scirra",
+			"version": "r268",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "Audio",
+			"name": "Audio",
+			"author": "Scirra",
+			"version": "r268",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "Browser",
+			"name": "Browser",
+			"author": "Scirra",
+			"version": "r268",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "TextBox",
+			"name": "Text input",
+			"author": "Scirra",
+			"version": "r268",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "Pin",
+			"name": "Pin",
+			"author": "Scirra",
+			"version": "r268",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "Sin",
+			"name": "Sine",
+			"author": "Scirra",
+			"version": "r268",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "solid",
+			"name": "Solid",
+			"author": "Scirra",
+			"version": "r268",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "Platform",
+			"name": "Platform",
+			"author": "Scirra",
+			"version": "r268",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "Flash",
+			"name": "Flash",
+			"author": "Scirra",
+			"version": "r268",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "scrollto",
+			"name": "Scroll To",
+			"author": "Scirra",
+			"version": "r268",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "Tween",
+			"name": "Tween",
+			"author": "Scirra",
+			"version": "r268",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "jumpthru",
+			"name": "Jump-thru",
+			"author": "Scirra",
+			"version": "r268",
+			"bundled": false
+		}
+	],
+	"uniqueId": "8691dqqgsg7",
+	"objectTypes": {
+		"items": [
+			"Keyboard",
+			"Touch",
+			"Audio",
+			"Browser",
+			"scorekoin",
+			"scorekill",
+			"txtPlayerLife",
+			"bglvl3peredaran",
+			"bglevel1pernafasan",
+			"bglvl2pernafasan",
+			"bglvl3pernafasan",
+			"putihpedang",
+			"playerboxputihpedang",
+			"lorong",
+			"btnmajulvl2peredaran",
+			"btnmundurlvl2peredaran",
+			"btnlompatlvl2peredaran",
+			"merahpedang",
+			"Playerboxmerahpedang",
+			"pijakangeser",
+			"Sprite5",
+			"finish",
+			"popupPause",
+			"resume",
+			"restart",
+			"homeperedaran",
+			"Completepopup",
+			"lvl1complete",
+			"scorepopup",
+			"icondompletepopup",
+			"btnrestart1peredaran",
+			"btnnextlevel1peredaran",
+			"btnnext",
+			"redbg",
+			"popupgameover",
+			"icongameover",
+			"btnrestart1gameover",
+			"gbtngotolevelstage",
+			"black",
+			"pengetahuan1",
+			"btnclosepengetahuan",
+			"tk",
+			"enemysnifle",
+			"lvl2complete",
+			"pengetahuan2",
+			"pengetahuan3a",
+			"tk2",
+			"Sprite2",
+			"pengetahuan4",
+			"garismati",
+			"pertanyaan1",
+			"Sprite3",
+			"opsiA",
+			"opsiB",
+			"OpsiC",
+			"OpsiD",
+			"iconpertanyaan",
+			"TextInput",
+			"benar",
+			"Sprite",
+			"BTNCLOSEPERTANYAAN",
+			"pengetahuan5",
+			"Sprite4",
+			"Sprite6",
+			"pertanyaan4",
+			"Sprite7",
+			"Sprite8",
+			"lvl3complete",
+			"materi2peredaran",
+			"frameinfo",
+			"bginfo",
+			"abaoutinfo",
+			"creditinfo",
+			"pengembanginfo",
+			"Bgsetting",
+			"closeSetting",
+			"btnmusik",
+			"btnbahasa",
+			"barsound",
+			"bahasaindonesia",
+			"onsound",
+			"offsound",
+			"materi1peredaran",
+			"materi3peredaran",
+			"materi1pernafasan",
+			"materi2Pernafasan",
+			"materi3Pernafasan",
+			"peredaranbtnclosemateri",
+			"pernafasanclosemateri"
+		],
+		"subfolders": [
+			{
+				"items": [
+					"btncloseinfo"
+				],
+				"subfolders": [],
+				"name": "info"
+			},
+			{
+				"items": [
+					"bgperedaran",
+					"bgpernafasan"
+				],
+				"subfolders": [],
+				"name": "tampilanpilihlevel"
+			},
+			{
+				"items": [
+					"killbutton",
+					"lompat",
+					"maju",
+					"mundur",
+					"pijakan",
+					"playerbox",
+					"putih",
+					"kamera"
+				],
+				"subfolders": [],
+				"name": "LEVEL1PeredaranDarah"
+			},
+			{
+				"items": [
+					"lvl1bonusperedaran",
+					"lvl1bonuspernafasan",
+					"lvl1peredaran",
+					"lvl1pernafasan",
+					"lvl2bonusperedaran",
+					"lvl2bonuspernafasan",
+					"lvl2bonuspncernaan",
+					"lvl2peredaran",
+					"lvl2pernafasan",
+					"lvl3bonusperedaran",
+					"lvl3bonuspernafasan",
+					"lvl3peredaran",
+					"lvl3pernafasan",
+					"M1",
+					"M2",
+					"M3",
+					"MENU1",
+					"MENU2",
+					"MENU3",
+					"MENU4",
+					"MENU5",
+					"playbutton",
+					"sinar",
+					"Text",
+					"TiledBackground",
+					"titleBloodStage",
+					"titlegame",
+					"btnbackmainmenu",
+					"btnExit",
+					"btnmateriperedaran",
+					"btnmateripernafasan",
+					"BTNSHOP",
+					"buttonback",
+					"buttonSettings",
+					"buutonInfo",
+					"ganjel",
+					"ganjel2",
+					"GESERKANAN",
+					"GESERKIRI",
+					"gesermenu",
+					"BackMainMenu",
+					"bg_loader",
+					"bgBloodStage",
+					"bgkksi3",
+					"bglevel1peredaran",
+					"bgloading3",
+					"bglvl2peredaran",
+					"BTNKOIN",
+					"btnpause",
+					"btnVIRUS",
+					"heart",
+					"jantung",
+					"kameralvl2peredaran",
+					"koin",
+					"lambung",
+					"paru",
+					"pijakannaik",
+					"playerboxmerah"
+				],
+				"subfolders": [],
+				"name": "ui"
+			},
+			{
+				"items": [
+					"enemycaster",
+					"enemypoxy",
+					"merah"
+				],
+				"subfolders": [],
+				"name": "Level2PeredaranDarah"
+			}
+		]
+	},
+	"autosaveData": null,
+	"containers": [],
+	"families": {
+		"items": [
+			"monster"
+		],
+		"subfolders": []
+	},
+	"layouts": {
+		"items": [],
+		"subfolders": [
+			{
+				"items": [
+					"loadingscreen",
+					"mainmenu",
+					"bloodstage",
+					"peredaran",
+					"pernafasan",
+					"materi2peredaran",
+					"Materi1peredaran",
+					"materi3peredaran",
+					"materi1pernafasan",
+					"materi2pernafasan",
+					"materi3Pernafasan"
+				],
+				"subfolders": [],
+				"name": "UI/Tampilan"
+			},
+			{
+				"items": [
+					"lvl1peredaran",
+					"lvl2peredaran",
+					"lvl3peredaran"
+				],
+				"subfolders": [],
+				"name": "Level Peredaran"
+			},
+			{
+				"items": [
+					"lvl1pernafasan",
+					"lvl2pernafasan",
+					"lvl3pernafasan"
+				],
+				"subfolders": [],
+				"name": "Level Pernafasan"
+			}
+		]
+	},
+	"eventSheets": {
+		"items": [
+			"bloodstageE",
+			"ELevelStageperedaran",
+			"Emainmenu",
+			"loadingE",
+			"ELevelStagepernafasan"
+		],
+		"subfolders": [
+			{
+				"items": [
+					"Elvl1perdaran",
+					"Elvl2perdaran",
+					"Elvl3perdaran"
+				],
+				"subfolders": [],
+				"name": "level peredaran"
+			},
+			{
+				"items": [
+					"Elvl1pernafasan",
+					"Elvl2pernafasan",
+					"Elvl3pernafasan"
+				],
+				"subfolders": [],
+				"name": "level pernafasan"
+			},
+			{
+				"items": [],
+				"subfolders": [],
+				"name": "level pencernaan"
+			}
+		]
+	},
+	"rootFileFolders": {
+		"script": {
+			"items": [],
+			"subfolders": []
+		},
+		"sound": {
+			"items": [
+				{
+					"name": "musicutamagame.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 841809584820234
+				},
+				{
+					"name": "peredaran.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 513657789223665
+				},
+				{
+					"name": "musuhmati.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 500236042598925
+				},
+				{
+					"name": "KOIN FIKS (mp3cut.net).webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 717080790620489
+				},
+				{
+					"name": "lompat.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 790897646490934
+				},
+				{
+					"name": "sound tahukah kamu cut.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 678782008313799
+				},
+				{
+					"name": "klikbutton.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 690988332492507
+				}
+			],
+			"subfolders": []
+		},
+		"music": {
+			"items": [],
+			"subfolders": []
+		},
+		"video": {
+			"items": [],
+			"subfolders": []
+		},
+		"font": {
+			"items": [],
+			"subfolders": []
+		},
+		"icon": {
+			"items": [
+				{
+					"name": "icon-16.png",
+					"type": "image/png",
+					"sid": 732280545571293,
+					"icon-info": {
+						"purpose": "app-icon"
+					}
+				},
+				{
+					"name": "icon-32.png",
+					"type": "image/png",
+					"sid": 776108596020953,
+					"icon-info": {
+						"purpose": "app-icon"
+					}
+				},
+				{
+					"name": "icon-64.png",
+					"type": "image/png",
+					"sid": 731386637548214,
+					"icon-info": {
+						"purpose": "app-icon"
+					}
+				},
+				{
+					"name": "icon-128.png",
+					"type": "image/png",
+					"sid": 914998298373956,
+					"icon-info": {
+						"purpose": "app-icon"
+					}
+				},
+				{
+					"name": "icon-256.png",
+					"type": "image/png",
+					"sid": 209991993944465,
+					"icon-info": {
+						"purpose": "app-icon"
+					}
+				},
+				{
+					"name": "icon-512.png",
+					"type": "image/png",
+					"sid": 964977223336441,
+					"icon-info": {
+						"purpose": "app-icon"
+					}
+				},
+				{
+					"name": "loading-logo.png",
+					"type": "image/png",
+					"sid": 732336888969170,
+					"icon-info": {
+						"purpose": "loading-logo"
+					}
+				}
+			],
+			"subfolders": []
+		},
+		"general": {
+			"items": [],
+			"subfolders": []
+		}
+	},
+	"timelines": {
+		"items": [
+			"Timeline 1"
+		],
+		"subfolders": [
+			{
+				"items": [],
+				"subfolders": []
+			}
+		]
+	},
+	"properties": {
+		"description": "",
+		"version": "1.0.0.0",
+		"author": "",
+		"authorEmail": "",
+		"authorWebsite": "",
+		"appId": "",
+		"pixelRounding": false,
+		"useLoaderLayout": false,
+		"fullscreenMode": "letterbox-scale",
+		"fullscreenQuality": "high",
+		"viewportFit": "auto",
+		"backgroundColor": [
+			0,
+			0,
+			0,
+			0
+		],
+		"splashColor": [
+			1,
+			1,
+			1,
+			0
+		],
+		"useThemeColor": false,
+		"themeColor": [
+			1,
+			1,
+			1,
+			0
+		],
+		"orientations": "landscape",
+		"gpuPreference": "high-performance",
+		"scriptsType": "module",
+		"framerateMode": "vsync",
+		"compositingMode": "standard",
+		"sampling": "trilinear",
+		"downscaling": "medium",
+		"renderingMode": "auto",
+		"anisotropicFiltering": "auto",
+		"maxSpriteSheetSize": 2048,
+		"loaderStyle": "splash",
+		"preloadSounds": true,
+		"cordovaiOSScheme": "app",
+		"cordovaAndroidScheme": "https"
+	},
+	"viewportWidth": 854,
+	"viewportHeight": 480,
+	"firstLayout": "loadingscreen"
+}
