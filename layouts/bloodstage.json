@@ -18,10 +18,10 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 426.9381402168245,
-						"y": 240.0851199991696,
-						"width": 853.931897763977,
-						"height": 480.1908754682968,
+						"x": 960,
+						"y": 540,
+						"width": 1920,
+						"height": 1080,
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [
@@ -62,10 +62,10 @@
 						}
 					},
 					"world": {
-						"x": 420.9722051535713,
-						"y": 55.90043380960833,
-						"width": 426.00985581058967,
-						"height": 102.87169813607994,
+						"x": 961,
+						"y": 204,
+						"width": 1060,
+						"height": 256,
 						"originX": 0.5011541193181818,
 						"originY": 0.5033088235294118,
 						"color": [
@@ -91,10 +91,10 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 260,
-						"y": 719,
-						"width": 139.4306657097253,
-						"height": 58.68614933680822,
+						"x": 601,
+						"y": 1239,
+						"width": 304,
+						"height": 128,
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [
@@ -120,10 +120,10 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 506,
-						"y": 719,
-						"width": 139.430666,
-						"height": 58.686149,
+						"x": 1362,
+						"y": 1239,
+						"width": 301,
+						"height": 128,
 						"originX": 0.5,
 						"originY": 0.5136217948717948,
 						"color": [
@@ -181,10 +181,10 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 191,
-						"y": 229,
-						"width": 903,
-						"height": 62,
+						"x": 359,
+						"y": 541,
+						"width": 1823.666666666667,
+						"height": 64,
 						"originX": 0,
 						"originY": 0.5,
 						"color": [
@@ -210,7 +210,7 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 403,
+						"x": 832,
 						"y": 5,
 						"width": 30.983866769659336,
 						"height": 30.983866769659336,
@@ -268,7 +268,7 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": -438,
+						"x": -709,
 						"y": 5,
 						"width": 30.983866999999996,
 						"height": 30.983867,
@@ -297,10 +297,10 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 555.9127977824227,
-						"y": 429.0872022175774,
-						"width": 72.753245,
-						"height": 72.650195,
+						"x": 1365,
+						"y": 881,
+						"width": 128,
+						"height": 128,
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [
@@ -326,10 +326,10 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 286,
-						"y": 427,
-						"width": 72.753244978723,
-						"height": 72.65019505665681,
+						"x": 514,
+						"y": 872,
+						"width": 128,
+						"height": 128,
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [
@@ -362,10 +362,10 @@
 						}
 					},
 					"world": {
-						"x": 234.03573541509326,
-						"y": -188.44906136134057,
-						"width": 148.6020107885948,
-						"height": 222.77258726763012,
+						"x": 149,
+						"y": -326,
+						"width": 272.8,
+						"height": 409.6,
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [
@@ -391,10 +391,10 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 437,
-						"y": -193,
-						"width": 148.602011,
-						"height": 222.772587,
+						"x": 547,
+						"y": -321,
+						"width": 272.8,
+						"height": 409.6,
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [
@@ -420,10 +420,10 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 635,
-						"y": -194,
-						"width": 148.34145808766803,
-						"height": 222.51203426666666,
+						"x": 960,
+						"y": -326,
+						"width": 272.8,
+						"height": 409.6,
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [
@@ -449,10 +449,10 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 827,
-						"y": -191,
-						"width": 148.602011,
-						"height": 222.772587,
+						"x": 1380,
+						"y": -329,
+						"width": 272.8,
+						"height": 409.6,
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [
@@ -485,46 +485,10 @@
 						}
 					},
 					"world": {
-						"x": 1013,
-						"y": -192,
-						"width": 148.602011,
-						"height": 222.772587,
-						"originX": 0.5,
-						"originY": 0.5,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "ganjel",
-					"properties": {
-						"initially-visible": false,
-						"initial-animation": "Animation 1",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 46,
-					"instanceVariables": {},
-					"behaviors": {
-						"Solid": {
-							"properties": {
-								"enabled": true,
-								"tags": ""
-							}
-						}
-					},
-					"world": {
-						"x": 226.68375477696924,
-						"y": 230,
-						"width": 5.091523146850562,
-						"height": 51,
+						"x": 1811,
+						"y": -322,
+						"width": 272.8,
+						"height": 409.6,
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [
@@ -557,10 +521,10 @@
 						}
 					},
 					"world": {
-						"x": 647.1266253876036,
-						"y": 227,
-						"width": 4.252774832177295,
-						"height": 47.06255204215316,
+						"x": 1991,
+						"y": 540,
+						"width": 6.447133122202873,
+						"height": 69.12433374649102,
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [
@@ -593,10 +557,10 @@
 						}
 					},
 					"world": {
-						"x": 264.42166490136714,
-						"y": 230,
-						"width": 5.091523146850562,
-						"height": 51,
+						"x": 739,
+						"y": 541,
+						"width": 4.630558922846323,
+						"height": 68.28118973025659,
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [
@@ -629,10 +593,10 @@
 						}
 					},
 					"world": {
-						"x": 614.2426571536828,
-						"y": 227.65767936467842,
-						"width": 4.252774832177295,
-						"height": 47.06255204215316,
+						"x": 1370,
+						"y": 507,
+						"width": 0.13608879462967344,
+						"height": 1.506001665348901,
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [
@@ -658,10 +622,82 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 820,
-						"y": 34,
-						"width": 50.01901645196136,
-						"height": 50.01901645196136,
+						"x": 1813,
+						"y": 101,
+						"width": 128,
+						"height": 128,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "ganjel2",
+					"properties": {
+						"initially-visible": false,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 44,
+					"instanceVariables": {},
+					"behaviors": {
+						"Solid": {
+							"properties": {
+								"enabled": true,
+								"tags": ""
+							}
+						}
+					},
+					"world": {
+						"x": 1950,
+						"y": 540,
+						"width": 6.447133122202873,
+						"height": 69.12433374649102,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "ganjel",
+					"properties": {
+						"initially-visible": false,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 197,
+					"instanceVariables": {},
+					"behaviors": {
+						"Solid": {
+							"properties": {
+								"enabled": true,
+								"tags": ""
+							}
+						}
+					},
+					"world": {
+						"x": 773,
+						"y": 541,
+						"width": 4.630558922846323,
+						"height": 68.32325730237812,
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [
@@ -706,8 +742,8 @@
 	"sid": 103817209223948,
 	"nonworld-instances": [],
 	"effectTypes": [],
-	"width": 1708,
-	"height": 960,
+	"width": 1920,
+	"height": 1080,
 	"unboundedScrolling": false,
 	"vpX": 0.5,
 	"vpY": 0.5,

@@ -118,9 +118,9 @@
 						{
 							"id": "set-layer-visible",
 							"objectClass": "System",
-							"sid": 867116746570760,
+							"sid": 486787114763251,
 							"parameters": {
-								"layer": "\"POPUP\"",
+								"layer": "\"Popup_Information\"",
 								"visibility": "visible"
 							}
 						},
@@ -154,9 +154,9 @@
 						{
 							"id": "set-layer-visible",
 							"objectClass": "System",
-							"sid": 968469300812021,
+							"sid": 675038242486815,
 							"parameters": {
-								"layer": "\"POPUPSetting\"",
+								"layer": "\"Popup_Settings\"",
 								"visibility": "visible"
 							}
 						},
@@ -228,9 +228,9 @@
 						{
 							"id": "set-layer-visible",
 							"objectClass": "System",
-							"sid": 914958537758982,
+							"sid": 904801993452344,
 							"parameters": {
-								"layer": "\"POPUP\"",
+								"layer": "\"Popup_Information\"",
 								"visibility": "invisible"
 							}
 						}
@@ -253,9 +253,9 @@
 						{
 							"id": "set-layer-visible",
 							"objectClass": "System",
-							"sid": 756345235651200,
+							"sid": 308109582339634,
 							"parameters": {
-								"layer": "\"POPUP\"",
+								"layer": "\"Popup_Information\"",
 								"visibility": "visible"
 							}
 						},
@@ -307,9 +307,9 @@
 						{
 							"id": "set-layer-visible",
 							"objectClass": "System",
-							"sid": 120753814810740,
+							"sid": 371160836323087,
 							"parameters": {
-								"layer": "\"POPUP\"",
+								"layer": "\"Popup_Information\"",
 								"visibility": "invisible"
 							}
 						},
@@ -548,9 +548,9 @@
 						{
 							"id": "set-layer-visible",
 							"objectClass": "System",
-							"sid": 301214071079138,
+							"sid": 854158146071992,
 							"parameters": {
-								"layer": "\"POPUPSetting\"",
+								"layer": "\"Popup_Settings\"",
 								"visibility": "invisible"
 							}
 						}
@@ -573,9 +573,9 @@
 						{
 							"id": "set-layer-visible",
 							"objectClass": "System",
-							"sid": 708321089506237,
+							"sid": 131592294911170,
 							"parameters": {
-								"layer": "\"POPUPSetting\"",
+								"layer": "\"Popup_Settings\"",
 								"visibility": "visible"
 							}
 						},
@@ -627,9 +627,9 @@
 						{
 							"id": "set-layer-visible",
 							"objectClass": "System",
-							"sid": 954199403321630,
+							"sid": 679321937245079,
 							"parameters": {
-								"layer": "\"POPUPSetting\"",
+								"layer": "\"Popup_Settings\"",
 								"visibility": "invisible"
 							}
 						},
